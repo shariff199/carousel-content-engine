@@ -1,0 +1,172 @@
+{
+  "name": "T1  Business move breakdown: Kier's prompt-a-thon",
+  "template": "t1",
+  "source": "Source: Microsoft Source, 2 Sept 2026",
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Kier got busy leaders using AI with a prompt-a-thon",
+      "highlight": [
+        "busy leaders",
+        "prompt-a-thon"
+      ],
+      "source": "Source: Microsoft Source, 2 Sept 2026",
+      "component": "ui-card",
+      "data": {
+        "title": "Prompt-a-thon",
+        "label": "Redrawn by BAT",
+        "tiles": [
+          {
+            "icon": "team",
+            "label": "Team A answers on its own"
+          },
+          {
+            "icon": "spark",
+            "label": "Team B answers with Copilot",
+            "ring": true,
+            "tag": "Same questions"
+          }
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "text": "Kier, a UK builder with about 11,000 staff, had leaders wary of AI and short on time.",
+      "highlight": [
+        "short on time"
+      ],
+      "source": "Source: Microsoft Source, 2 Sept 2026",
+      "component": "news-card",
+      "data": {
+        "source": "Microsoft Source",
+        "monogram": "MS",
+        "date": "2 Sept 2026, feature on Kier Group",
+        "quote": "I will happily be the one that asks the silly question.",
+        "chips": [
+          "Louisa Finlay, COO",
+          "Salford, England"
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "text": "Two teams got the same questions. One answered alone, the other used Copilot.",
+      "highlight": [
+        "the same questions"
+      ],
+      "source": "Source: Microsoft Source, 2 Sept 2026",
+      "component": "before-after",
+      "data": {
+        "before": {
+          "label": "Team A",
+          "items": [
+            "Same questions",
+            "Answers on its own"
+          ],
+          "foot": "No AI"
+        },
+        "after": {
+          "label": "Team B",
+          "items": [
+            "Same questions",
+            "Answers with Copilot"
+          ],
+          "foot": "With AI"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "text": "They learned in small peer groups, where asking a basic question felt safe.",
+      "highlight": [
+        "small peer groups"
+      ],
+      "source": "Source: Microsoft Source, 2 Sept 2026",
+      "component": "checklist",
+      "data": {
+        "items": [
+          {
+            "text": "Small peer groups",
+            "sub": "preferred over webinars and solo courses"
+          },
+          {
+            "text": "Nobody has to be the cleverest",
+            "sub": "not knowing the answer is fine"
+          },
+          {
+            "text": "Colleagues share their own stories",
+            "sub": "the next step Kier named"
+          }
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "text": "Kier's rule for AI is called Human at the Helm. People stay in control.",
+      "highlight": [
+        "Human at the Helm"
+      ],
+      "source": "Source: Microsoft Source, 2 Sept 2026",
+      "component": "ui-card",
+      "data": {
+        "title": "Safety data agent",
+        "label": "Illustration",
+        "rows": [
+          [
+            "Collects",
+            "Site safety data"
+          ],
+          [
+            "Flags",
+            "Possible risk areas"
+          ],
+          [
+            "Decides what to do",
+            "A person",
+            true
+          ]
+        ],
+        "note": "Kier says its agents are at an early stage"
+      }
+    },
+    {
+      "role": "body",
+      "text": "Copy it with your team: one hour, five real questions from this week, two teams.",
+      "highlight": [
+        "one hour"
+      ],
+      "component": "timeline",
+      "data": {
+        "steps": [
+          {
+            "when": "0:00",
+            "what": "Pick 5 real questions",
+            "sub": "from this week's emails",
+            "state": "done"
+          },
+          {
+            "when": "0:10",
+            "what": "Team A answers alone",
+            "state": "done"
+          },
+          {
+            "when": "0:10",
+            "what": "Team B answers with AI",
+            "state": "done"
+          },
+          {
+            "when": "0:40",
+            "what": "Compare the answers",
+            "sub": "and agree who checks AI work",
+            "state": "now"
+          }
+        ]
+      }
+    },
+    {
+      "role": "closing",
+      "text": "Kier made AI a team game with one rule: a person stays in charge.",
+      "source": "Source: Microsoft Source, 2 Sept 2026"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "T2  Saveable resource: 5 WhatsApp replies",
+  "template": "t2",
+  "accent": null,
+  "slides": [
+    {
+      "role": "cover",
+      "text": "5 WhatsApp replies to send the minute an enquiry lands",
+      "highlight": [
+        "5 WhatsApp replies",
+        "the minute"
+      ],
+      "note": "Copy them word for word.",
+      "swipe": "Swipe",
+      "component": "phone-whatsapp",
+      "data": {
+        "contact": "Customer",
+        "status": "online",
+        "day": "",
+        "messages": [
+          {
+            "from": "in",
+            "text": "Hi, is the grey sofa still available?",
+            "time": "9:38 PM"
+          },
+          {
+            "from": "out",
+            "text": "Hi, thanks for messaging. Checking stock for you now.",
+            "time": "9:38 PM",
+            "ticks": "read"
+          }
+        ],
+        "typing": true
+      }
+    },
+    {
+      "role": "body",
+      "num": "1",
+      "title": "Confirm you saw it",
+      "text": "Reply inside a minute, even when the full answer takes longer.",
+      "highlight": [
+        "inside a minute"
+      ],
+      "component": "copy-box",
+      "data": {
+        "text": "Hi, thanks for messaging Your Shop. I've seen your enquiry and I'm checking it now. I'll reply with details before 6 PM today.",
+        "kind": "First reply",
+        "when": "Send: the moment the enquiry lands"
+      }
+    },
+    {
+      "role": "body",
+      "num": "2",
+      "title": "Ask one question",
+      "text": "One clear question keeps the chat moving. A list of questions stalls it.",
+      "highlight": [
+        "One clear question"
+      ],
+      "component": "copy-box",
+      "data": {
+        "text": "Quick question so I send you the right options: is this for your home or your office?",
+        "kind": "Second reply",
+        "when": "Send: right after your first reply"
+      }
+    },
+    {
+      "role": "body",
+      "num": "3",
+      "title": "Answer the price",
+      "text": "Price is usually the real question. Answer it in the chat so they don't have to call.",
+      "highlight": [
+        "Answer it in the chat"
+      ],
+      "component": "copy-box",
+      "data": {
+        "text": "The 3-seater is $[price] and the 2-seater is $[price]. Want photos of both before you decide?",
+        "kind": "Price reply",
+        "when": "Send: when they ask what it costs"
+      }
+    },
+    {
+      "role": "body",
+      "num": "4",
+      "title": "Offer two time slots",
+      "text": "Two slots to pick from get a faster answer than 'when suits you'.",
+      "highlight": [
+        "Two slots"
+      ],
+      "component": "copy-box",
+      "data": {
+        "text": "I can call you today at 4 PM or tomorrow at 11 AM. Which one suits you?",
+        "kind": "Booking reply",
+        "when": "Send: once they have seen options"
+      }
+    },
+    {
+      "role": "body",
+      "num": "5",
+      "title": "Nudge once, next morning",
+      "text": "If the chat goes quiet, send one short nudge the next day. Then leave it.",
+      "highlight": [
+        "one short nudge"
+      ],
+      "component": "copy-box",
+      "data": {
+        "text": "Good morning. Just checking you got the options I sent yesterday. Happy to answer any questions, no rush.",
+        "kind": "Follow-up",
+        "when": "Send: the next morning, once"
+      }
+    },
+    {
+      "role": "recap",
+      "title": "Save this for the next enquiry.",
+      "highlight": [
+        "Save this"
+      ],
+      "text": "Five replies, in order:",
+      "component": "checklist",
+      "data": {
+        "numbered": true,
+        "items": [
+          "Confirm you saw it",
+          "Ask one question",
+          "Answer the price",
+          "Offer two time slots",
+          "Nudge once, next morning"
+        ]
+      }
+    },
+    {
+      "role": "closing",
+      "text": "Five replies, in order. Send the first one inside a minute."
+    }
+  ],
+  "brand": "WhatsApp"
+}

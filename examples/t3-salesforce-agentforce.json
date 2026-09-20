@@ -1,0 +1,231 @@
+{
+  "name": "T3  AI explained for owners: Salesforce's job-ready agents",
+  "template": "t3",
+  "bg_image": null,
+  "slides": [
+    {
+      "role": "cover",
+      "hud": true,
+      "text": "Salesforce launched AI agents built for one job each",
+      "highlight": [
+        "AI agents",
+        "one job"
+      ],
+      "source": "Source: Salesforce, 11 Sept 2026",
+      "swipe": "Swipe for more",
+      "component": "ui-card",
+      "data": {
+        "title": "Casey, help agent",
+        "label": "Illustration",
+        "rows": [
+          [
+            "Answers on",
+            "Voice, SMS, WhatsApp"
+          ],
+          [
+            "Handles",
+            "FAQs and returns"
+          ]
+        ],
+        "button": {
+          "label": "Hand off to a person",
+          "icon": "person",
+          "ring": true,
+          "tag": "Escalation built in"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "title": "What Salesforce announced",
+      "text": "On 11 Sept, Salesforce released ready-made AI agents for sales, service and shopping.",
+      "highlight": [
+        "ready-made"
+      ],
+      "source": "Source: Salesforce newsroom, 11 Sept 2026",
+      "component": "news-card",
+      "data": {
+        "theme": "dark",
+        "source": "Salesforce newsroom",
+        "monogram": "SF",
+        "date": "11 Sept 2026, San Francisco",
+        "quote": "a new portfolio of job-ready agents built to take on high-value work",
+        "chips": [
+          "Official announcement",
+          "Agentforce"
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "title": "Seven agents, one job each",
+      "text": "Each agent comes with the skills and actions for its job. Companies can rename it.",
+      "highlight": [
+        "for its job"
+      ],
+      "source": "Source: Salesforce newsroom, 11 Sept 2026",
+      "component": "ui-card",
+      "data": {
+        "title": "Job-ready agents",
+        "theme": "light",
+        "label": "4 of 7 shown",
+        "rows": [
+          [
+            "Casey",
+            "Customer service",
+            true
+          ],
+          [
+            "Carter",
+            "Shopping and checkout"
+          ],
+          [
+            "Hunter",
+            "Outbound sales"
+          ],
+          [
+            "Paige",
+            "IT and HR requests"
+          ]
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "title": "Not all are live yet",
+      "text": "Most are available now. Hunter, the sales agent, stays in pilot until November.",
+      "highlight": [
+        "pilot until November"
+      ],
+      "source": "Source: Salesforce newsroom, 11 Sept 2026",
+      "component": "checklist",
+      "data": {
+        "items": [
+          {
+            "text": "Casey, help agent",
+            "sub": "available now",
+            "state": "done"
+          },
+          {
+            "text": "Carter, shopper agent",
+            "sub": "available now",
+            "state": "done"
+          },
+          {
+            "text": "Paige, IT and HR agent",
+            "sub": "available now",
+            "state": "done"
+          },
+          {
+            "text": "Hunter, outbound sales agent",
+            "sub": "pilot now, general release November 2026",
+            "state": "open"
+          }
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "title": "Work that takes weeks",
+      "text": "Hunter can work toward one goal for weeks and asks the seller when approval is needed.",
+      "highlight": [
+        "asks the seller"
+      ],
+      "source": "Source: Salesforce newsroom, 11 Sept 2026",
+      "component": "timeline",
+      "data": {
+        "steps": [
+          {
+            "when": "GOAL",
+            "what": "Rescue at-risk deals",
+            "sub": "the example Salesforce gives",
+            "state": "done"
+          },
+          {
+            "when": "PLAN",
+            "what": "Tasks, tools and guardrails",
+            "state": "done"
+          },
+          {
+            "when": "WORK",
+            "what": "Adjusts as news comes in",
+            "sub": "memory keeps progress between sessions",
+            "state": "now"
+          },
+          {
+            "when": "ASK",
+            "what": "Seller approves when required",
+            "state": "todo"
+          }
+        ]
+      }
+    },
+    {
+      "role": "body",
+      "title": "Rules still decide",
+      "text": "Agents work inside a company's rules and permissions. Agent Script adds fixed rules.",
+      "highlight": [
+        "rules and permissions"
+      ],
+      "source": "Source: Salesforce newsroom, 11 Sept 2026",
+      "component": "before-after",
+      "data": {
+        "before": {
+          "label": "AI reasoning",
+          "items": [
+            "Reads the request",
+            "Suggests the next step"
+          ],
+          "foot": "Flexible"
+        },
+        "after": {
+          "label": "Fixed rules",
+          "items": [
+            "Permissions and security",
+            "When a person approves"
+          ],
+          "foot": "Fixed"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "title": "What to do this week",
+      "text": "You don't need Salesforce. Pick one job and write its rules before any AI touches it.",
+      "highlight": [
+        "write its rules"
+      ],
+      "component": "timeline",
+      "data": {
+        "steps": [
+          {
+            "when": "MON",
+            "what": "Pick one job",
+            "sub": "for example, answering FAQs",
+            "state": "done"
+          },
+          {
+            "when": "TUE",
+            "what": "List what it may answer",
+            "state": "done"
+          },
+          {
+            "when": "WED",
+            "what": "Write when a person takes over",
+            "state": "now"
+          },
+          {
+            "when": "THU",
+            "what": "Test it on real questions",
+            "state": "todo"
+          }
+        ]
+      }
+    },
+    {
+      "role": "closing",
+      "text": "Salesforce sells agents built for one job. Start with one job and clear rules.",
+      "source": "Source: Salesforce, 11 Sept 2026"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+name = "bat-engine-clock"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+# workers.dev URL is on because Telegram's webhook posts taps to /telegram. Everything else answers 404, and
+# /telegram answers 401 without the TELEGRAM_WEBHOOK_SECRET header.
+workers_dev = true
+preview_urls = false
+
+[triggers]
+# 10:00 UTC daily preview; hourly 11:05-16:05 UTC publish check (14:05 is the publish slot)
+crons = ["0 10 * * *", "5 11-16 * * *"]

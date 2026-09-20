@@ -1,0 +1,330 @@
+{
+ "adobe": {
+  "hex": "#EC1C24",
+  "title": "Adobe",
+  "wordmark": true
+ },
+ "airbnb": {
+  "hex": "#FF5A5F",
+  "title": "Airbnb"
+ },
+ "airtable": {
+  "hex": "#18BFFF",
+  "title": "Airtable"
+ },
+ "amazon": {
+  "hex": "#FF9900",
+  "title": "Amazon",
+  "wordmark": true
+ },
+ "anthropic": {
+  "hex": "#191919",
+  "title": "Anthropic"
+ },
+ "apple": {
+  "hex": "#000000",
+  "title": "Apple"
+ },
+ "asana": {
+  "hex": "#F06A6A",
+  "title": "Asana"
+ },
+ "aws": {
+  "hex": "#FF9900",
+  "title": "AWS",
+  "wordmark": true
+ },
+ "brevo": {
+  "hex": "#0B996E",
+  "title": "Brevo"
+ },
+ "calendly": {
+  "hex": "#006BFF",
+  "title": "Calendly"
+ },
+ "canva": {
+  "hex": "#00C4CC",
+  "title": "Canva",
+  "wordmark": true
+ },
+ "chatgpt": {
+  "hex": "#10A37F",
+  "title": "ChatGPT",
+  "wordmark": true
+ },
+ "claude": {
+  "hex": "#D97757",
+  "title": "Claude"
+ },
+ "clickup": {
+  "hex": "#7B68EE",
+  "title": "ClickUp"
+ },
+ "copilot": {
+  "hex": "#0078D4",
+  "title": "Copilot",
+  "wordmark": true
+ },
+ "cursor": {
+  "hex": "#000000",
+  "title": "Cursor"
+ },
+ "deepseek": {
+  "hex": "#5786FE",
+  "title": "DeepSeek"
+ },
+ "discord": {
+  "hex": "#5865F2",
+  "title": "Discord"
+ },
+ "doordash": {
+  "hex": "#FF3008",
+  "title": "DoorDash"
+ },
+ "ebay": {
+  "hex": "#E53238",
+  "title": "eBay"
+ },
+ "etsy": {
+  "hex": "#F16521",
+  "title": "Etsy"
+ },
+ "facebook": {
+  "hex": "#0866FF",
+  "title": "Facebook"
+ },
+ "figma": {
+  "hex": "#F24E1E",
+  "title": "Figma"
+ },
+ "framer": {
+  "hex": "#0055FF",
+  "title": "Framer"
+ },
+ "github": {
+  "hex": "#181717",
+  "title": "GitHub"
+ },
+ "githubcopilot": {
+  "hex": "#000000",
+  "title": "GitHub Copilot"
+ },
+ "gmail": {
+  "hex": "#EA4335",
+  "title": "Gmail"
+ },
+ "google": {
+  "hex": "#4285F4",
+  "title": "Google"
+ },
+ "googlecalendar": {
+  "hex": "#4285F4",
+  "title": "Google Calendar"
+ },
+ "googlechrome": {
+  "hex": "#4285F4",
+  "title": "Google Chrome"
+ },
+ "googledocs": {
+  "hex": "#4285F4",
+  "title": "Google Docs"
+ },
+ "googledrive": {
+  "hex": "#4285F4",
+  "title": "Google Drive"
+ },
+ "googlegemini": {
+  "hex": "#8E75B2",
+  "title": "Google Gemini"
+ },
+ "googlemaps": {
+  "hex": "#4285F4",
+  "title": "Google Maps"
+ },
+ "googlesheets": {
+  "hex": "#34A853",
+  "title": "Google Sheets"
+ },
+ "hubspot": {
+  "hex": "#FF7A59",
+  "title": "HubSpot"
+ },
+ "huggingface": {
+  "hex": "#FFD21E",
+  "title": "Hugging Face"
+ },
+ "instagram": {
+  "hex": "#FF0069",
+  "title": "Instagram"
+ },
+ "intercom": {
+  "hex": "#6AFDEF",
+  "title": "Intercom"
+ },
+ "linkedin": {
+  "hex": "#0A66C2",
+  "title": "LinkedIn",
+  "wordmark": true
+ },
+ "mailchimp": {
+  "hex": "#FFE01B",
+  "title": "MailChimp"
+ },
+ "make": {
+  "hex": "#6D00CC",
+  "title": "Make"
+ },
+ "messenger": {
+  "hex": "#0866FF",
+  "title": "Messenger"
+ },
+ "meta": {
+  "hex": "#0467DF",
+  "title": "Meta"
+ },
+ "microsoft": {
+  "hex": "#F25022",
+  "title": "Microsoft",
+  "wordmark": true
+ },
+ "mistralai": {
+  "hex": "#FA520F",
+  "title": "Mistral AI"
+ },
+ "notion": {
+  "hex": "#000000",
+  "title": "Notion"
+ },
+ "nvidia": {
+  "hex": "#76B900",
+  "title": "NVIDIA"
+ },
+ "openai": {
+  "hex": "#10A37F",
+  "title": "OpenAI",
+  "wordmark": true
+ },
+ "paypal": {
+  "hex": "#002991",
+  "title": "PayPal"
+ },
+ "perplexity": {
+  "hex": "#1FB8CD",
+  "title": "Perplexity"
+ },
+ "pinterest": {
+  "hex": "#BD081C",
+  "title": "Pinterest"
+ },
+ "quickbooks": {
+  "hex": "#2CA01C",
+  "title": "QuickBooks"
+ },
+ "reddit": {
+  "hex": "#FF4500",
+  "title": "Reddit"
+ },
+ "revolut": {
+  "hex": "#191C1F",
+  "title": "Revolut"
+ },
+ "salesforce": {
+  "hex": "#00A1E0",
+  "title": "Salesforce",
+  "wordmark": true
+ },
+ "shopify": {
+  "hex": "#7AB55C",
+  "title": "Shopify"
+ },
+ "slack": {
+  "hex": "#4A154B",
+  "title": "Slack",
+  "wordmark": true
+ },
+ "square": {
+  "hex": "#3E4348",
+  "title": "Square"
+ },
+ "squarespace": {
+  "hex": "#000000",
+  "title": "Squarespace"
+ },
+ "stripe": {
+  "hex": "#635BFF",
+  "title": "Stripe"
+ },
+ "telegram": {
+  "hex": "#26A5E4",
+  "title": "Telegram"
+ },
+ "tiktok": {
+  "hex": "#000000",
+  "title": "TikTok"
+ },
+ "trello": {
+  "hex": "#0052CC",
+  "title": "Trello"
+ },
+ "tripadvisor": {
+  "hex": "#34E0A1",
+  "title": "Tripadvisor"
+ },
+ "twilio": {
+  "hex": "#F22F46",
+  "title": "Twilio",
+  "wordmark": true
+ },
+ "uber": {
+  "hex": "#000000",
+  "title": "Uber"
+ },
+ "webflow": {
+  "hex": "#146EF5",
+  "title": "Webflow"
+ },
+ "whatsapp": {
+  "hex": "#25D366",
+  "title": "WhatsApp"
+ },
+ "wise": {
+  "hex": "#9FE870",
+  "title": "Wise"
+ },
+ "wix": {
+  "hex": "#0C6EFC",
+  "title": "Wix"
+ },
+ "wordpress": {
+  "hex": "#21759B",
+  "title": "WordPress"
+ },
+ "x": {
+  "hex": "#000000",
+  "title": "X"
+ },
+ "xero": {
+  "hex": "#13B5EA",
+  "title": "Xero"
+ },
+ "yelp": {
+  "hex": "#FF1A1A",
+  "title": "Yelp"
+ },
+ "youtube": {
+  "hex": "#FF0000",
+  "title": "YouTube"
+ },
+ "zapier": {
+  "hex": "#FF4F00",
+  "title": "Zapier"
+ },
+ "zendesk": {
+  "hex": "#03363D",
+  "title": "Zendesk"
+ },
+ "zoom": {
+  "hex": "#0B5CFF",
+  "title": "Zoom"
+ }
+}

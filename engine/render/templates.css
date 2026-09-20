@@ -1,0 +1,225 @@
+/* The four templates. Each one only arranges the frame and components; no new colours. */
+
+/* shared text roles */
+.headline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: var(--track-head);
+  line-height: var(--lh-tight);
+  text-wrap: balance;
+}
+.headline .dim { color: var(--fg-3); }
+.sentence {
+  font-family: var(--font-display);
+  font-size: var(--t-title);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: var(--track-title);
+  text-wrap: balance;
+}
+.body-text {
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  font-weight: 450;
+  letter-spacing: -0.008em;
+  color: var(--fg-2);
+  text-wrap: pretty;
+}
+.stage { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+.stage-top { justify-content: flex-start; }
+.stage > * { width: 100%; }
+
+/* =========================================================== T1 business move (light) */
+.t1 .frame-top.ruled::after { bottom: -26px; }
+.t1 .cover-head { font-size: 96px; line-height: 1.02; }
+.t1.cover .stage { margin-top: 56px; justify-content: flex-start; }
+.t1.body .sentence { margin-top: 20px; }
+.t1.body .stage { margin-top: 40px; }
+.t1 .sentence { line-height: 1.12; }
+.t1 .card-wrap { position: relative; }
+.t1 .closing-head { font-size: 104px; line-height: 1.0; margin-top: 20px; }
+.t1 .closing-head + .stage { margin-top: 40px; justify-content: flex-start; }
+.t1 .checklist li { font-size: 46px; padding: 40px 0; line-height: 1.22; }
+.t1 .checklist .box { width: 56px; height: 56px; margin-top: 0; }
+
+/* =========================================================== T2 saveable resource (dark) */
+.t2.cover .headline { font-size: var(--t-hero); margin-top: 20px; max-width: 900px; }
+.t2.cover .cover-phone {
+  position: absolute; z-index: 1;
+  right: 88px; top: 724px;
+}
+.t2.cover .cover-phone .phone { height: 900px; }
+.t2.cover .frame-foot { justify-content: flex-start; }
+.t2.cover .cover-note {
+  margin-top: 28px;
+  font-size: 40px; line-height: 1.3; color: var(--fg-2); font-weight: 450;
+}
+.t2.cover .cover-note b { color: var(--fg); font-weight: 650; }
+.t2 .step-title {
+  font-family: var(--font-display);
+  font-size: 58px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  line-height: 1.08;
+  margin-top: 24px;
+}
+
+.t2.body .body-text { margin-top: 22px; max-width: 880px; font-size: 40px; }
+.t2.body .stage { margin-top: 52px; justify-content: flex-start; }
+.t2 .closing-head { font-size: 112px; line-height: 1.0; margin-top: 16px; }
+.t2.recap .checklist li { font-size: 44px; padding: 30px 0; }
+.t2.recap .checklist .box { width: 60px; height: 60px; }
+.t2.recap .checklist .num { font-size: 30px; }
+.t2 .closing-sub { margin-top: 18px; }
+.t2 .closing-head + .body-text { margin-top: 22px; }
+.t2.recap .stage { margin-top: 36px; justify-content: flex-start; }
+.t2.recap .body-text { font-size: 40px; }
+
+/* =========================================================== T3 AI explained (dark news) */
+.t3 .news-head {
+  font-family: var(--font-condensed);
+  font-stretch: 68%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+  line-height: 0.93;
+  text-wrap: balance;
+}
+.t3 .news-head .hl { padding: 0 0.08em; margin: 0 -0.01em; border-radius: 0.04em; }
+.t3.cover .content { justify-content: flex-end; }
+.t3.cover .news-head { font-size: 104px; }
+.t3.cover .ui-amount { font-size: 92px; }
+.t3.cover .ui-body { padding-top: 24px; padding-bottom: 32px; }
+.t3.cover .cover-visual {
+  position: absolute; z-index: 1; left: 170px; right: 170px; top: 142px;
+}
+.t3.cover .cover-visual .card { transform: none; }
+.t3.body .news-head { font-size: 96px; margin-top: 24px; }
+.t3.body .body-text { margin-top: 22px; color: var(--fg-2); font-size: 40px; }
+.t3 .checklist li { font-size: 42px; padding: 30px 0; }
+.t3 .checklist .ck-sub { font-size: 30px; }
+.t3.body .stage { margin-top: 44px; justify-content: flex-start; }
+.t3.recap .content { justify-content: space-between; }
+.t3.recap .news-head { font-size: 250px; line-height: 0.84; margin-top: 8px; }
+.t3.recap .body-text { font-family: var(--font-display); font-size: 64px; line-height: 1.12; color: var(--fg); font-weight: 600; letter-spacing: -0.025em; padding-top: 44px; border-top: 1px solid var(--hair); text-wrap: balance; }
+.t3.recap .stage { margin-top: 48px; justify-content: flex-start; }
+
+/* =========================================================== T4 one belief (paper, hand) */
+.t4 .marker {
+  font-family: var(--font-marker);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.02;
+  color: var(--fg);
+  text-wrap: balance;
+}
+.t4.cover .frame-box {
+  position: relative; flex: 1; margin: 40px 0 8px;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 72px 76px;
+}
+.t4 .frame-box > svg.drawn-frame { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; color: var(--fg); }
+.t4.cover .marker { font-size: 150px; position: relative; }
+.t4 .sign {
+  position: absolute; right: 64px; bottom: 36px;
+  font-family: var(--font-hand); font-weight: 700; font-size: 44px; color: var(--fg-2);
+}
+.t4 .circled { position: relative; white-space: nowrap; display: inline-block; }
+.t4 .circled > svg { position: absolute; left: -9%; top: -14%; width: 118%; height: 128%; overflow: visible; color: var(--accent); pointer-events: none; }
+.t4 .underlined { position: relative; white-space: nowrap; display: inline-block; }
+.t4 .underlined > svg { position: absolute; left: -2%; bottom: -0.1em; width: 104%; height: 0.3em; overflow: visible; color: var(--accent); }
+.t4.body .marker { font-size: 84px; margin-top: 28px; }
+.t4.body .stage { margin-top: 28px; align-items: center; }
+.t4.body .stage > .doodle { width: 100%; height: 100%; max-height: 600px; }
+.t4.recap .frame-box { margin: 36px 0 8px; flex: 1; padding: 64px 72px; display: flex; flex-direction: column; justify-content: center; position: relative; }
+.t4.recap .marker { font-size: 190px; }
+.t4.recap .recap { font-family: var(--font-hand); font-weight: 700; font-size: 84px; line-height: 1.12; margin-top: 36px; color: var(--fg); text-wrap: balance; }
+.t4 .save-arrow { position: absolute; left: 118px; bottom: 196px; width: 170px; height: 150px; z-index: 3; color: var(--fg); overflow: visible; }
+.t4 .sign { font-size: 52px; }
+
+/* =========================================================== v2.1 premium closing (every template)
+   The BAT mark is the hero: large, free-floating, in the ground's own ink. Nothing boxes it, tints
+   it or glows on it. Under it: the wordmark, a one-line recap, then the follow line. "Save this"
+   stays in the footer as the secondary cue. */
+.slide.closing .closing-content { justify-content: center; align-items: center; text-align: center; }
+.closing-stack { width: 100%; display: flex; flex-direction: column; align-items: center; }
+.closing-brand { display: flex; flex-direction: column; align-items: center; }
+.closing-mark { width: 168px; color: var(--fg); position: relative; z-index: 3; }
+.closing-mark svg { display: block; width: 100%; height: auto; }
+.closing-word {
+  margin-top: 34px; padding-left: 0.36em;
+  font-family: var(--font-display); font-size: 24px; font-weight: 600;
+  letter-spacing: 0.36em; text-transform: uppercase; color: var(--fg-2);
+}
+/* The one line the reader can act on. Until 16 Sept this was 44px above a 92px FOLLOW, so the
+   ask beat the value; research/2026-09-14-visual-and-animation-guide.md specifies the reverse
+   for T1 and T3 ("what your business can copy", "what to do this week"). */
+.closing-payoff {
+  margin-top: 52px; max-width: 900px;
+  font-family: var(--font-display); font-size: 68px; line-height: 1.12; font-weight: 800;
+  letter-spacing: -0.028em; color: var(--fg); text-wrap: balance;
+}
+.closing-cta { margin-top: 64px; padding-top: 40px; width: 100%; border-top: 1px solid var(--hair); }
+.closing-follow {
+  font-family: var(--font-display); font-size: 40px; font-weight: 650; line-height: 1.2;
+  letter-spacing: -0.02em; text-wrap: balance; color: var(--fg);
+}
+.closing-follow .handle { white-space: nowrap; padding: 0 0.14em; }
+.closing-reason { margin: 14px auto 0; max-width: 780px; font-size: 30px; line-height: 1.3; color: var(--fg-2); font-weight: 450; text-wrap: balance; }
+/* hairline blueprint under the mark: 54px cells centred on the canvas, fading out from the logo */
+.closing-grid {
+  position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 54px 54px; background-position: 0 -1px;
+  -webkit-mask-image: radial-gradient(62% 44% at 50% 33%, #000 0%, rgba(0,0,0,0.5) 45%, transparent 100%);
+          mask-image: radial-gradient(62% 44% at 50% 33%, #000 0%, rgba(0,0,0,0.5) 45%, transparent 100%);
+}
+.ground-dark .closing-grid { --grid-line: rgba(245, 245, 242, 0.06); }
+.ground-light .closing-grid, .ground-paper .closing-grid { --grid-line: rgba(11, 11, 11, 0.07); }
+.slide.closing .texture-corner { opacity: 0.6; }
+
+/* template voices on the shared closing */
+.t3.closing .closing-payoff { font-family: var(--font-condensed); font-stretch: 68%; font-weight: 800; text-transform: uppercase; font-size: 84px; line-height: 0.96; letter-spacing: -0.005em; }
+.closing-follow .handle { padding: 0 0.08em; }
+.t4.closing .closing-grid { display: none; }
+.t4.closing .closing-payoff { font-family: var(--font-marker); font-weight: 400; font-size: 76px; letter-spacing: 0; line-height: 1.04; }
+.t4.closing .closing-payoff.recap-hand { font-family: var(--font-hand); font-weight: 700; font-size: 72px; line-height: 1.08; letter-spacing: 0; }
+.t4.closing .closing-cta { border-top: 0; padding-top: 0; }
+
+/* =========================================================== v2.1 tightening (safe area moved up 24px)
+   Body cards now start at a fixed distance under the sentence and are sized to fill the stage,
+   so a card no longer floats in the middle with empty bands above and below. */
+.t1.body .stage { margin-top: 64px; justify-content: flex-start; }
+.t1 .news, .t3 .news { padding: 52px 56px 48px; }
+.t1 .news-quote { font-size: 62px; line-height: 1.12; }
+.t3 .news-quote { font-size: 56px; line-height: 1.12; }
+.t1 .news-foot { margin-top: 40px; }
+.t3 .news-foot { margin-top: 30px; }
+.t1 .ba-col { min-height: 600px; }
+.t1 .ba-col li { font-size: 42px; }
+.t1.body .checklist li { padding: 44px 0; }
+.t1.body .ui-row { font-size: 38px; padding: 30px 0; }
+.t1.body .ui-note, .t3.body .ui-note { font-size: 26px; margin-top: 30px; }
+.t1.cover .ui-tile b { font-size: 36px; }
+.t1.cover .ui-tiles { margin-top: 40px; }
+.t1.cover .ui-tile { min-height: 290px; }
+.t3 .news-head .hl { white-space: nowrap; }
+.t3 .timeline li { min-height: 128px; }
+
+.t3.cover .cover-visual { left: 140px; right: 140px; }
+.t3.cover .ui-row { font-size: 36px; padding: 24px 0; }
+.t2.cover .cover-phone { top: 700px; }
+.t2.recap .checklist li { padding: 26px 0; }
+.closing-payoff { font-size: 68px; }
+.t3.closing .closing-payoff { font-size: 84px; }
+
+/* T2's cover pins its phone mock at a fixed y, so the brand row has to pay for itself: a smaller
+   mark and a tighter rule, or the headline lands on the phone (measured: 51px of collision). */
+.t2.cover .brand-row { margin-bottom: 18px; }
+.t2.cover .brand-badge { box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25); }
+/* The phone is a bleed element, so it can take most of the row's height back off the bottom;
+   the note gives up the rest. Measured: without both, the note lands 32px inside the phone, and
+   pushing the phone alone any further puts its chat bubbles under Instagram's own bottom UI. */
+.t2.cover .content:has(.brand-row) ~ .cover-phone { top: 762px; }
+.t2.cover .content:has(.brand-row) .cover-note { margin-top: 14px; font-size: 36px; }

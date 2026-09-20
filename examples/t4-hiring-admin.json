@@ -1,0 +1,89 @@
+{
+  "name": "T4  One belief: hiring another admin",
+  "template": "t4",
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Hiring another admin is the expensive fix",
+      "highlight": [
+        "another admin",
+        "expensive"
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Every new customer brings more messages, invoices and reminders.",
+      "highlight": [
+        "more"
+      ],
+      "component": "doodle",
+      "data": {
+        "kind": "bars",
+        "alt": "three stacks of admin work, each taller",
+        "labels": {
+          "a": "this month",
+          "b": "next month",
+          "c": "after that",
+          "top": "the admin pile"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "text": "A new hire types the same details into the same places. Now two people do it.",
+      "highlight": [
+        "two people"
+      ],
+      "component": "doodle",
+      "data": {
+        "kind": "loop",
+        "alt": "details typed from Gmail into a spreadsheet into QuickBooks, then again",
+        "labels": {
+          "a": "Gmail",
+          "b": "spreadsheet",
+          "c": "QuickBooks",
+          "loop": "type it all again",
+          "top": "person one, then person two"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "text": "Before you hire, list every task where someone copies details from one screen to another.",
+      "highlight": [
+        "copies details"
+      ],
+      "component": "doodle",
+      "data": {
+        "kind": "sort",
+        "alt": "a task list split between a system and people",
+        "labels": {
+          "a": "system",
+          "b": "people"
+        }
+      }
+    },
+    {
+      "role": "body",
+      "text": "Move those to a system. Keep people for calls and customers who want a person.",
+      "highlight": [
+        "Keep people"
+      ],
+      "component": "doodle",
+      "data": {
+        "kind": "curve",
+        "alt": "time spent copying falls after a system goes in, time with customers rises",
+        "labels": {
+          "marker": "system goes in",
+          "a": "time copying",
+          "b": "time with customers",
+          "x": "weeks"
+        }
+      }
+    },
+    {
+      "role": "closing",
+      "text": "Before you hire for admin, move the copying to a system first."
+    }
+  ]
+}

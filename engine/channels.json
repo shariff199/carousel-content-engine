@@ -1,0 +1,54 @@
+{
+  "_doc": "Where an approved carousel goes once an approver taps Publish. A channel posts only when enabled is true AND it is connected (integration id or webhook env set) AND its text passed the rules. Anything else is skipped with a recorded reason, never an error. Instagram keeps its original record at runs/<date>/publish.json; every other channel writes runs/<date>/publish.<channel>.json.",
+  "instagram": {
+    "enabled": true,
+    "label": "Instagram",
+    "via": "postiz",
+    "integration": "POSTIZ_INSTAGRAM_INTEGRATION_ID",
+    "integration_env": "POSTIZ_INSTAGRAM_ID",
+    "settings": {
+      "__type": "instagram-standalone",
+      "post_type": "post",
+      "collaborators": []
+    },
+    "text": "caption",
+    "images": "all"
+  },
+  "facebook": {
+    "enabled": false,
+    "label": "Facebook page",
+    "via": "postiz",
+    "integration": null,
+    "integration_env": "POSTIZ_FACEBOOK_ID",
+    "settings": {
+      "__type": "facebook",
+      "post_type": "post"
+    },
+    "text": "caption",
+    "images": "all",
+    "off_because": "not connected in this configuration"
+  },
+  "x": {
+    "enabled": false,
+    "label": "X",
+    "via": "postiz",
+    "integration": "cms91k4gi0001p976awdhn1lv",
+    "integration_env": "POSTIZ_X_ID",
+    "settings": {
+      "__type": "x",
+      "who_can_reply_post": "everyone"
+    },
+    "text": "x_text",
+    "images": "cover",
+    "off_because": "not connected in this configuration"
+  },
+  "linkedin_page": {
+    "enabled": false,
+    "label": "LinkedIn page",
+    "via": "make",
+    "webhook_env": "MAKE_LINKEDIN_WEBHOOK_URL",
+    "text": "linkedin_text",
+    "images": "cover",
+    "off_because": "not connected in this configuration"
+  }
+}

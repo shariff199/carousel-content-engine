@@ -1,0 +1,453 @@
+{
+  "version": 2,
+  "updated": "2026-09-14",
+  "owner": "owner",
+  "_comment": "The whitelist the linter checks every generated number and claim against. A number passes only when an entry here has status 'confirmed' AND public is true AND review_by has not passed; anything else is rejected. The real confirmed values are kept outside this repository, so every entry below ships as an example with status needs_fact.",
+  "facts": [
+    {
+      "id": "price.landing.from",
+      "pillar": [
+        "P3",
+        "P5"
+      ],
+      "claim": "Landing pages from BAT start at [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.business_site.from",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "Business websites from BAT start at [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.premium_site.from",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "Premium design-led sites from BAT start at [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.ecommerce.from",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "E-commerce stores from BAT start at [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.ads.from",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "Performance ads management from [USD price] a month plus ad spend.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.seo.from",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "SEO from [USD price] a month.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.ai_visibility_audit",
+      "pillar": [
+        "P3",
+        "P4"
+      ],
+      "claim": "An AI-visibility audit costs [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.logo",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "A logo costs [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "price.brand_kit",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "A brand kit costs [USD price].",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "time.landing",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "A landing page takes 7 to 10 days once the photos, prices and wording are in.",
+      "forms": [
+        "7 to 10 days"
+      ],
+      "status": "confirmed",
+      "public": true,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "example",
+      "confirmed_on": "2026-01-01",
+      "review_by": "2030-12-31",
+      "notes": "Example entry, kept so the R1 whitelist tests have something to pass on."
+    },
+    {
+      "id": "time.business_site",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "A business site takes 15 to 25 days once the client's inputs are in.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "time.ecommerce",
+      "pillar": [
+        "P3"
+      ],
+      "claim": "An e-commerce store takes 15 to 20 days once the client's inputs are in.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "time.automation",
+      "pillar": [
+        "P1",
+        "P2",
+        "P4"
+      ],
+      "claim": "An automation project takes 3 to 6 weeks once the client's inputs are in.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "process.four_steps",
+      "pillar": [
+        "P3",
+        "P5"
+      ],
+      "claim": "A project runs in four steps: discovery call, scoped proposal, build sprint, launch and iterate.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "terms.fixed_price",
+      "pillar": [
+        "P3",
+        "P5"
+      ],
+      "claim": "The quote is the price.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "terms.code_ownership",
+      "pillar": [
+        "P3",
+        "P5"
+      ],
+      "claim": "The client owns the code after final payment.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "team.cofounders",
+      "pillar": [
+        "P5"
+      ],
+      "claim": "BAT has four co-founders, and clients talk directly to the people building the work.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "terms.advance",
+      "pillar": [],
+      "claim": "BAT takes a 60% advance.",
+      "forms": [],
+      "status": "needs_fact",
+      "public": false,
+      "usage": "normal",
+      "source": "",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "Example entry. The confirmed value is kept outside this repository."
+    },
+    {
+      "id": "engine.schedule",
+      "pillar": [
+        "P5"
+      ],
+      "claim": "The engine drafts at 4 PM IST daily.",
+      "forms": [
+        "4 PM"
+      ],
+      "status": "internal",
+      "public": false,
+      "usage": "normal",
+      "source": "live workflow node 'Daily 4pm IST', 13 Sept pull",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": ""
+    },
+    {
+      "id": "engine.approval_gate",
+      "pillar": [
+        "P4",
+        "P5"
+      ],
+      "claim": "Every drafted post arrives on Telegram with a Publish and a Skip button. Nothing posts without a tap.",
+      "forms": [],
+      "status": "confirmed",
+      "public": false,
+      "usage": "normal",
+      "source": "live workflow, 13 Sept pull",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2026-12-31",
+      "notes": "public: ask. Flip public to true once Tauheed says yes (NEEDS FACT 18)."
+    },
+    {
+      "id": "engine.outage_aug3_7",
+      "pillar": [
+        "P5"
+      ],
+      "claim": "A line-break error in one Code node stopped the engine silently from 3 to 7 August.",
+      "forms": [
+        "3 to 7 August",
+        "5 days"
+      ],
+      "status": "confirmed",
+      "public": false,
+      "usage": "normal",
+      "source": "deploy/n8n-code-node-gotcha.md",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "public: ask (NEEDS FACT 18)."
+    },
+    {
+      "id": "engine.alias_outage",
+      "pillar": [
+        "P5"
+      ],
+      "claim": "A model alias change broke the engine for 11 days.",
+      "forms": [
+        "11 days"
+      ],
+      "status": "confirmed",
+      "public": false,
+      "usage": "normal",
+      "source": "deploy/n8n/image-generation.md",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "public: ask (NEEDS FACT 18)."
+    },
+    {
+      "id": "engine.invented_stat_jul29",
+      "pillar": [
+        "P5"
+      ],
+      "claim": "The model once wrote '5 minutes late equals an 80% drop in lead qualification' with no source.",
+      "forms": [
+        "5 minutes",
+        "80%"
+      ],
+      "status": "confirmed",
+      "public": false,
+      "usage": "quote_only",
+      "source": "content/2026-07-29-bat-calendar.md",
+      "confirmed_by": "",
+      "confirmed_on": "",
+      "review_by": "2027-03-31",
+      "notes": "public: ask (NEEDS FACT 18). quote_only: the numbers may appear only as the quoted mistake, in a P5 build-log piece."
+    }
+  ],
+  "names": {
+    "_doc": "Names the linter refuses to publish. 'Northwind' is a placeholder kept so the R22 test has something to catch; the real client lists are kept outside this repository.",
+    "free_to_name": [],
+    "ask_first": [
+      "Northwind"
+    ],
+    "never_name": []
+  },
+  "tools": {
+    "audience_uses": [
+      "QuickBooks",
+      "Xero",
+      "HubSpot",
+      "Salesforce",
+      "Stripe",
+      "Shopify",
+      "Zapier",
+      "Slack",
+      "Notion",
+      "Google Workspace",
+      "Microsoft 365",
+      "WhatsApp",
+      "WhatsApp Business",
+      "Google Sheets",
+      "Excel",
+      "Google Business Profile",
+      "Meta lead forms",
+      "WooCommerce"
+    ],
+    "bat_builds_with": [
+      "Next.js",
+      "Shopify",
+      "WordPress",
+      "Supabase",
+      "Vercel",
+      "n8n",
+      "Make",
+      "Gemini",
+      "Claude",
+      "Docker",
+      "Coolify"
+    ]
+  },
+  "flags": {
+    "ig_dm_answered": false,
+    "ig_bio_link_set": false,
+    "hinglish_allowed": false
+  },
+  "off_limits": [
+    "client money, balances, disputes",
+    "leads by name",
+    "the LVS/UK entity",
+    "anything from the CRM",
+    "tax and legal rules",
+    "WhatsApp/Meta pricing"
+  ],
+  "_needs_fact": [
+    "Example: the confirmed price list and the client name lists live outside this repository."
+  ]
+}

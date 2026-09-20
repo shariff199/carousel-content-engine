@@ -1,0 +1,87 @@
+name: publish on tap
+
+# Reads Publish / Skip taps from the approvals chat and posts the approved carousel from 14:00 UTC (19:30 IST) to
+# every channel ready in engine/channels.json. No approver tap = never posted. Taps arrive either through
+# getUpdates (hourly) or, once the Cloudflare clock's Telegram webhook is set, as the `tap` input it sends.
+on:
+  schedule:
+    - cron: "5 11,12,13,14,15,16 * * *"   # hourly 11:05-16:05 UTC; 14:05 is the publish slot
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Run date YYYY-MM-DD (default: today UTC)"
+        required: false
+      dry_run:
+        description: "Dry run: read taps and find slides, stop before any Postiz call"
+        type: boolean
+        default: true
+      retry:
+        description: "Retry a publish that failed before Postiz created the post"
+        type: boolean
+        default: false
+      source_run_id:
+        description: "Daily run id to take slides from (default: runs/<date>/result.json)"
+        required: false
+      tap:
+        description: "Set by the Cloudflare clock: <publish|skip>:<YYYY-MM-DD>:<telegram user id>:<name>. Checked against TELEGRAM_APPROVER_IDS."
+        required: false
+      test_decision:
+        description: "TEST ONLY, dry runs only: simulate a tap (publish or skip). Never committed."
+        required: false
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: publish-on-tap
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # comma-separated Telegram user ids allowed to tap; empty = only the private chat's owner
+      TELEGRAM_APPROVER_IDS: ${{ secrets.TELEGRAM_APPROVER_IDS }}
+      # passed through env, never interpolated into a shell line; publish.mjs validates the format
+      TAP_INPUT: ${{ inputs.tap }}
+      POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+      POSTIZ_INSTAGRAM_ID: POSTIZ_INSTAGRAM_INTEGRATION_ID
+      # LinkedIn company page goes through a Make webhook; empty secret = channel skipped as not connected.
+      # Which channels post is decided by engine/channels.json.
+      MAKE_LINKEDIN_WEBHOOK_URL: ${{ secrets.MAKE_LINKEDIN_WEBHOOK_URL }}
+      GH_TOKEN: ${{ github.token }}
+      # a scheduled run is never a dry run; a manual run is dry unless unticked
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+      RETRY: ${{ github.event_name == 'workflow_dispatch' && inputs.retry || 'false' }}
+      SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+      RUN_DATE: ${{ inputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Simulated tap (test, dry run only, not committed)
+        if: github.event_name == 'workflow_dispatch' && inputs.test_decision != '' && inputs.dry_run
+        run: |
+          D="${RUN_DATE:-$(date -u +%F)}"
+          mkdir -p "runs/$D"
+          echo "{\"date\":\"$D\",\"action\":\"${{ inputs.test_decision }}\",\"test\":true,\"note\":\"simulated in a dry run\"}" > "runs/$D/decision.json"
+          cat "runs/$D/decision.json"
+
+      - name: Read taps, publish if approved
+        run: node engine/publish.mjs ${RUN_DATE:+--date $RUN_DATE}
+
+      - name: Commit decisions and state
+        if: always() && env.DRY_RUN != 'true'
+        run: |
+          git config user.name "bat-content-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add runs/
+          git diff --cached --quiet || git commit -m "publish check $(date -u +%FT%H:%MZ)"
+          git pull --rebase --autostash origin main && git push origin HEAD:main

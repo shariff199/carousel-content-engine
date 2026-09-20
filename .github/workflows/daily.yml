@@ -1,0 +1,104 @@
+name: daily carousel preview
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 10:00 UTC = 15:30 IST
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Run date YYYY-MM-DD (default: today UTC)"
+        required: false
+      force:
+        description: "Run even if today's preview was already sent (sends a second, different carousel)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-carousel
+  cancel-in-progress: false
+
+jobs:
+  # One preview per date. The Cloudflare clock, GitHub's own cron and hand runs can all start this job;
+  # only the first sends. Tick `force` to send another on purpose.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.seen.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: seen
+        run: |
+          D="${{ github.event.inputs.date }}"; D="${D:-$(date -u +%F)}"
+          if [ "${{ inputs.force }}" != "true" ] && [ -f "runs/$D/telegram.json" ]; then
+            echo "preview for $D already sent, skipping"; echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  carousel:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install renderer deps (uses the runner's Google Chrome, no browser download)
+        run: |
+          pip install -r requirements.txt
+          google-chrome --version
+
+      - name: Rules tests
+        run: node --test engine/rules/ engine/test/
+
+      - name: Set date
+        run: echo "RUN_DATE=${{ github.event.inputs.date || '' }}" >> "$GITHUB_ENV"
+
+      - name: News radar
+        run: |
+          node engine/radar/news-radar.mjs --hours 48 --out out/radar
+          node -e "const d=require('./out/radar/news-trends.json'); console.log('feeds ok', d.sources.filter(s=>s.ok).length+'/'+d.sources.length, 'failed:', d.sources.filter(s=>!s.ok).map(s=>s.source).join(',')||'none')"
+
+      - name: Generate, lint, render
+        run: node engine/generate.mjs ${RUN_DATE:+--date $RUN_DATE}
+
+      - name: Telegram preview with Publish / Skip buttons (posting happens in publish.yml, only after a tap)
+        run: node engine/telegram-preview.mjs ${RUN_DATE:+--date $RUN_DATE}
+
+      - name: Upload slides
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: carousel-${{ github.run_id }}
+          path: |
+            out/**/*.jpg
+            out/**/contact-sheet.png
+            out/radar/news-digest.md
+          retention-days: 14
+
+      - name: Commit run record
+        if: always()
+        run: |
+          cp out/radar/news-trends.json "runs/$(ls runs | sort | tail -1)/news-trends.json" 2>/dev/null || true
+          git config user.name "bat-content-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add runs/
+          git diff --cached --quiet || git commit -m "run record $(ls runs | sort | tail -1)"
+          git pull --rebase --autostash origin main && git push origin HEAD:main

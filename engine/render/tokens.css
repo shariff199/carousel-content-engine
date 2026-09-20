@@ -1,0 +1,156 @@
+/* BAT carousel v2 tokens.
+   Canvas 1080x1350 (4:5). Every size here is canvas px; a phone shows the slide at about
+   0.36x, so 34px body type lands near 12px on screen. Nothing smaller carries meaning.
+
+   Colour: greyscale lock from brand-kit/BAT_BRAND_GUIDELINES.md s4. The only colour hook is
+   --accent. It defaults to the greyscale marker (ink on light, off-white on dark). Set
+   "accent" in a spec to try option B from the visual guide; nothing else changes. */
+
+:root {
+  /* brand primitives */
+  --bat-light: #E8E8E5;
+  --bat-dark-0: #0F0F0F;
+  --bat-dark-1: #1A1A1A;
+  --bat-ink: #0B0B0B;
+  --bat-paper: #F5F5F2;
+  --bat-line-light: #DEDEDB;
+  --bat-line-dark: #1F1F1F;
+
+  /* greys between the brand anchors (derived, still neutral) */
+  --grey-950: #121212;
+  --grey-900: #161616;
+  --grey-850: #1D1D1D;
+  --grey-800: #252525;
+  --grey-700: #333332;
+  --grey-500: #5E5E5C;
+  --grey-400: #8A8A87;
+  --grey-300: #B4B4B0;
+  --grey-200: #D4D4D0;
+  --grey-100: #EFEFEC;
+  --white: #FFFFFF;
+
+  /* families: Inter at opsz 32 is Inter Display; Archivo is the condensed news face (T3);
+     Caveat Brush / Caveat are the marker hand (T4). All vendored in fonts.css. */
+  --font-display: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-text: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Menlo, monospace;
+  --font-condensed: "Archivo", "Arial Narrow", sans-serif;
+  --font-marker: "Caveat Brush", "Marker Felt", cursive;
+  --font-hand: "Caveat", "Marker Felt", cursive;
+
+  /* type scale, canvas px. Ratio about 1.25 from body up, with a jump at display. */
+  --t-hero: 104px;      /* cover headline */
+  --t-display: 84px;    /* closing headline, T3 body titles */
+  --t-title: 60px;      /* body sentence on editorial slides */
+  --t-lead: 46px;       /* step titles, sub-heads */
+  --t-body: 38px;       /* running text */
+  --t-body-sm: 34px;    /* floor for anything that is read */
+  --t-meta: 26px;       /* counter, cues, source lines */
+  --t-micro: 22px;      /* inside drawn UI only: timestamps, chips */
+
+  --lh-tight: 0.98;
+  --lh-head: 1.06;
+  --lh-body: 1.38;
+  --track-head: -0.028em;
+  --track-title: -0.02em;
+  --track-label: 0.08em;
+
+  /* 8px grid */
+  --s-1: 8px;
+  --s-2: 16px;
+  --s-3: 24px;
+  --s-4: 32px;
+  --s-5: 40px;
+  --s-6: 48px;
+  --s-8: 64px;
+  --s-10: 80px;
+  --s-12: 96px;
+
+  /* frame geometry. Instagram's UI covers roughly the bottom 120px. v2.1 keeps every cue and
+     every read line at least 40px clear of that band: footer bottom edge at 160px, content box
+     stops 40px above the footer. The check fails any text whose visible part enters the band. */
+  --canvas-w: 1080px;
+  --canvas-h: 1350px;
+  --margin-x: 88px;
+  --frame-top: 72px;
+  --ig-ui-zone: 120px;
+  --foot-bottom: 160px;   /* footer's bottom edge, measured from the canvas bottom */
+  --foot-h: 48px;
+  --content-top: 176px;
+  --content-bottom: 248px; /* = foot-bottom + foot-h + 40 */
+
+  --radius-card: 16px;
+  --radius-chip: 999px;
+  --radius-device: 64px;
+
+}
+
+/* Semantic roles per ground. Set on .slide so --accent resolves against the right ground. */
+.slide {
+  --accent: var(--accent-custom, var(--mark-bg));
+  --accent-ink: var(--accent-custom-ink, var(--mark-fg));
+}
+
+.ground-light {
+  --bg: var(--bat-light);
+  --bg-solid: var(--bat-light);
+  --fg: var(--bat-ink);
+  --fg-2: rgba(11, 11, 11, 0.64);   /* secondary text, about 5.2:1 on #E8E8E5 */
+  --fg-3: rgba(11, 11, 11, 0.40);   /* brand opacity-split, display sizes only */
+  --hair: rgba(11, 11, 11, 0.14);
+  --surface: var(--bat-paper);
+  --surface-2: #DCDCD8;
+  --surface-ink: var(--bat-ink);
+  --mark-bg: var(--bat-ink);
+  --mark-fg: var(--bat-paper);
+  --shadow-card: 0 1px 2px rgba(11, 11, 11, 0.06), 0 28px 56px -28px rgba(11, 11, 11, 0.28);
+  --dot: rgba(11, 11, 11, 0.10);
+}
+
+.ground-dark {
+  --bg: linear-gradient(180deg, var(--bat-dark-0) 0%, var(--bat-dark-1) 100%);
+  --bg-solid: #141414;
+  --fg: var(--bat-paper);
+  --fg-2: rgba(245, 245, 242, 0.66);  /* about 7:1 on #141414 */
+  --fg-3: rgba(245, 245, 242, 0.42);
+  --hair: rgba(245, 245, 242, 0.10);
+  --surface: var(--grey-900);
+  --surface-2: var(--grey-850);
+  --surface-ink: var(--bat-paper);
+  --mark-bg: var(--bat-paper);
+  --mark-fg: var(--bat-ink);
+  --shadow-card: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 32px 64px -32px rgba(0, 0, 0, 0.8);
+  --dot: rgba(245, 245, 242, 0.075);
+}
+
+.ground-paper {
+  --bg: var(--bat-paper);
+  --bg-solid: var(--bat-paper);
+  --fg: var(--bat-ink);
+  --fg-2: rgba(11, 11, 11, 0.64);
+  --fg-3: rgba(11, 11, 11, 0.40);
+  --hair: rgba(11, 11, 11, 0.12);
+  --surface: var(--white);
+  --surface-2: var(--grey-100);
+  --surface-ink: var(--bat-ink);
+  --mark-bg: var(--bat-ink);
+  --mark-fg: var(--bat-paper);
+  --shadow-card: 0 1px 2px rgba(11, 11, 11, 0.05), 0 24px 48px -28px rgba(11, 11, 11, 0.22);
+  --dot: rgba(11, 11, 11, 0.13);
+}
+
+/* The highlight. Weight plus an inverse marker bar; colour only through --accent. */
+.hl {
+  /* a bar drawn as a sized background, so it never covers the descenders of the line above */
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  /* --hl-w is the wipe hook the animation tweens; stills keep it at 100% */
+  background-size: var(--hl-w, 100%) 0.9em;
+  background-position: 0 62%;
+  color: var(--accent-ink);
+  padding: 0 0.12em;
+  margin: 0 -0.03em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.hl-weight { font-weight: 800; color: var(--fg); }
