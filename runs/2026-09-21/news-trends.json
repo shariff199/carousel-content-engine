@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-09-21T16:16:26.157Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 12
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    }
+  ],
+  "items_seen": 113,
+  "trends": [
+    {
+      "topic": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
+      "score": 19.8,
+      "why_now": "4 source(s), newest 1h ago",
+      "tags": [
+        "launch",
+        "automation"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 4,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Trump says it's time to rebrand AI with a new name — and he's also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "date": "2026-09-19T19:57:47.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "Trump now says he wants to form an ‘AI Force’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "date": "2026-09-20T15:39:22.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "Trump to create ‘AI Force’ to monitor technology as fears over out-of-control agents grow",
+          "url": "https://www.theguardian.com/us-news/2026/sep/19/donald-trump-ai-force",
+          "date": "2026-09-19T19:57:17.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+          "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
+          "date": "2026-09-21T15:37:56.000Z"
+        }
+      ],
+      "first_seen": "2026-09-19T19:57:17.000Z",
+      "expires": "2026-09-24T15:37:56.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "SpaceXAI releases Grok 4.7, which it says is better at verifying its own work and managing longer context, available for $2/1M input and $6/1M output tokens (xAI)",
+      "score": 14.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "launch",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "SpaceXAI releases Grok 4.7, which it says is better at verifying its own work and managing longer context, available for $2/1M input and $6/1M output tokens (xAI)",
+          "url": "https://www.techmeme.com/260921/p40#a260921p40",
+          "date": "2026-09-21T15:55:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T15:55:01.000Z",
+      "expires": "2026-09-24T15:55:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Google’s Gemini is the latest AI model to hack other companies",
+      "score": 14.6,
+      "why_now": "2 source(s), newest 2h ago",
+      "tags": [
+        "pricing",
+        "major-ai",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Google's $899 Googlebook is a bet that you'll buy a new laptop for Gemini",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "date": "2026-09-21T14:39:22.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "Google’s Gemini is the latest AI model to hack other companies",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+          "date": "2026-09-19T17:30:00.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "MediaTek unveils the Dimensity CX C10 Max, a 3nm TSMC N3 flagship SoC designed for Google's upcoming Googlebook lineup, with an 8-core CPU and an 11-core GPU (Jake Roach/Tom's Hardware)",
+          "url": "https://www.techmeme.com/260921/p30#a260921p30",
+          "date": "2026-09-21T13:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-19T17:30:00.000Z",
+      "expires": "2026-09-24T14:39:22.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Googlebook OS hands-on: core services like Gmail run as Trusted Web Activities via the Play Store, Gemini Nano powers some apps, and it feels like a Pixel phone (Abner Li/9to5Google)",
+      "score": 14.3,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "smb-tools",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Googlebook OS hands-on: core services like Gmail run as Trusted Web Activities via the Play Store, Gemini Nano powers some apps, and it feels like a Pixel phone (Abner Li/9to5Google)",
+          "url": "https://www.techmeme.com/260921/p28#a260921p28",
+          "date": "2026-09-21T13:19:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T13:19:00.000Z",
+      "expires": "2026-09-24T13:19:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "score": 12.6,
+      "why_now": "2 source(s), newest 2h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+          "date": "2026-09-19T20:44:40.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "Sources: OpenAI is developing features to counter SpaceX's Grok Bot \"teammates\", and has discussed creating a personal AI assistant to compete with Meta's Muse (The Information)",
+          "url": "https://www.techmeme.com/260921/p36#a260921p36",
+          "date": "2026-09-21T14:40:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-19T20:44:40.000Z",
+      "expires": "2026-09-24T14:40:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "US Treasury Secretary Scott Bessent says OpenAI's Hugging Face hacking incident in July \"is the responsibility of the OpenAI management, not a bunch of agents\" (Yash Roy/Bloomberg)",
+      "score": 12.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "US Treasury Secretary Scott Bessent says OpenAI's Hugging Face hacking incident in July \"is the responsibility of the OpenAI management, not a bunch of agents\" (Yash Roy/Bloomberg)",
+          "url": "https://www.techmeme.com/260921/p34#a260921p34",
+          "date": "2026-09-21T13:55:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T13:55:01.000Z",
+      "expires": "2026-09-24T13:55:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "How V7 gives AI agents institutional memory",
+      "score": 11.9,
+      "why_now": "1 source(s), newest 16h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "How V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7",
+          "date": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T00:00:00.000Z",
+      "expires": "2026-09-24T00:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "UN says AI safeguards can’t wait for certainty",
+      "score": 11.5,
+      "why_now": "1 source(s), newest 6h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "UN says AI safeguards can’t wait for certainty",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "date": "2026-09-21T10:18:06.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T10:18:06.000Z",
+      "expires": "2026-09-24T10:18:06.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Nscale's S-1: Microsoft and Anthropic account for 85% of its $103B in total contract value, only $2.6B of contract value was active as of late August, and more (Bloomberg)",
+      "score": 11.4,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Nscale's S-1: Microsoft and Anthropic account for 85% of its $103B in total contract value, only $2.6B of contract value was active as of late August, and more (Bloomberg)",
+          "url": "https://www.techmeme.com/260921/p33#a260921p33",
+          "date": "2026-09-21T13:45:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T13:45:00.000Z",
+      "expires": "2026-09-24T13:45:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Review of Mac Studio (M5 Ultra) with 256 GB of RAM: a dream machine to run local AI agents and a massive leap over M3 Ultra for prompt processing and generation (Federico Viticci/MacStories)",
+      "score": 10.8,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Review of Mac Studio (M5 Ultra) with 256 GB of RAM: a dream machine to run local AI agents and a massive leap over M3 Ultra for prompt processing and generation (Federico Viticci/MacStories)",
+          "url": "https://www.techmeme.com/260921/p39#a260921p39",
+          "date": "2026-09-21T15:40:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T15:40:01.000Z",
+      "expires": "2026-09-24T15:40:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "score": 9.6,
+      "why_now": "1 source(s), newest 1h ago, official announcement",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "nvidia",
+          "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+          "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+          "date": "2026-09-21T14:51:34.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T14:51:34.000Z",
+      "expires": "2026-09-24T14:51:34.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Amazon blocks Meta’s Muse AI agent",
+      "score": 9.3,
+      "why_now": "1 source(s), newest 7h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Amazon blocks Meta’s Muse AI agent",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "date": "2026-09-21T09:21:47.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T09:21:47.000Z",
+      "expires": "2026-09-24T09:21:47.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "AI Made Execution Easier. It Also Changed the Founder’s Most Important Job.",
+      "score": 9,
+      "why_now": "1 source(s), newest 46h ago",
+      "tags": [
+        "smb",
+        "automation"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "entrepreneur",
+          "title": "AI Made Execution Easier. It Also Changed the Founder’s Most Important Job.",
+          "url": "https://www.entrepreneur.com/business-news/ai-made-execution-easier-it-also-changed-the-founders-most-important-job",
+          "date": "2026-09-19T18:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-19T18:30:00.000Z",
+      "expires": "2026-09-22T18:30:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+      "score": 8.6,
+      "why_now": "1 source(s), newest 6h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+          "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+          "date": "2026-09-21T10:31:47.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T10:31:47.000Z",
+      "expires": "2026-09-24T10:31:47.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI goes from hacker to hacked",
+      "score": 8.4,
+      "why_now": "1 source(s), newest 6h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "therundown",
+          "title": "OpenAI goes from hacker to hacked",
+          "url": "https://therundownai.beehiiv.com/p/openai-goes-from-hacker-to-hacked",
+          "date": "2026-09-21T10:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T10:00:00.000Z",
+      "expires": "2026-09-24T10:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial",
+      "score": 7.2,
+      "why_now": "1 source(s), newest 23h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "The Guardian view on AI v mathematicians: humans are still vital to the field, but tech firms refuse to see that | Editorial",
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/20/the-guardian-view-on-ai-v-mathematicians-humans-are-still-vital-to-the-field-but-tech-firms-refuse-to-see-that",
+          "date": "2026-09-20T16:58:03.000Z"
+        }
+      ],
+      "first_seen": "2026-09-20T16:58:03.000Z",
+      "expires": "2026-09-23T16:58:03.000Z",
+      "kind": "news"
+    }
+  ]
+}
