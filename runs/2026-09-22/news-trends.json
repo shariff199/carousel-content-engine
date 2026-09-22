@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-09-22T14:24:54.764Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 19
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    }
+  ],
+  "items_seen": 157,
+  "trends": [
+    {
+      "topic": "Meta's Muse is outpacing ChatGPT’s early mobile launch",
+      "score": 24.4,
+      "why_now": "4 source(s), newest 3h ago",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 4,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta's Muse is outpacing ChatGPT’s early mobile launch",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "date": "2026-09-21T19:19:21.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "Meta patches Muse exploit that let attackers control the AI agent",
+          "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+          "date": "2026-09-22T11:53:58.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "date": "2026-09-21T22:24:38.000Z"
+        },
+        {
+          "source": "therundown",
+          "title": "Amazon shuts out Meta's Muse",
+          "url": "https://therundownai.beehiiv.com/p/amazon-shuts-out-meta-s-muse",
+          "date": "2026-09-22T10:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T19:19:21.000Z",
+      "expires": "2026-09-25T11:53:58.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Sources: DeepSeek and Moonshot are among the companies briefing the UN Security Council on AI risks and international security during the UN General Assembly (Laurie Chen/Reuters)",
+      "score": 14.7,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "UK Prime Minister Andy Burnham says he plans to use the UK's upcoming G20 presidency to broker a global AI governance deal, ahead of the UN General Assembly (Politico)",
+          "url": "https://www.techmeme.com/260922/p25#a260922p25",
+          "date": "2026-09-22T13:05:04.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "Sources: DeepSeek and Moonshot are among the companies briefing the UN Security Council on AI risks and international security during the UN General Assembly (Laurie Chen/Reuters)",
+          "url": "https://www.techmeme.com/260922/p16#a260922p16",
+          "date": "2026-09-22T11:51:12.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T11:51:12.000Z",
+      "expires": "2026-09-25T13:05:04.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "These Local Businesses Got Eyeballs On a Budget: ‘Put Us On the Map With 2 Million Views’",
+      "score": 13.6,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "smb",
+        "web"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "entrepreneur",
+          "title": "These Local Businesses Got Eyeballs On a Budget: ‘Put Us On the Map With 2 Million Views’",
+          "url": "https://www.entrepreneur.com/building-a-business/these-local-businesses-got-eyeballs-on-a-budget-put-us-on-the-map-with-2-million-views",
+          "date": "2026-09-22T13:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T13:00:00.000Z",
+      "expires": "2026-09-25T13:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+      "score": 12.4,
+      "why_now": "1 source(s), newest 2h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "nvidia",
+          "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+          "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "date": "2026-09-22T12:00:41.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T12:00:41.000Z",
+      "expires": "2026-09-25T12:00:41.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "score": 12,
+      "why_now": "1 source(s), newest 26h ago, official announcement",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+          "date": "2026-09-21T12:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T12:00:00.000Z",
+      "expires": "2026-09-24T12:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "score": 12,
+      "why_now": "1 source(s), newest 20h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+          "date": "2026-09-21T18:30:34.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T18:30:34.000Z",
+      "expires": "2026-09-24T18:30:34.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "DoorDash agrees to a $131.5M settlement with NYC's DCWP to resolve a year-plus investigation into its compliance with the city's 2023 delivery driver pay law (Elias Schisgall/Wall Street Journal)",
+      "score": 11.8,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Sources: Xi Jinping is unlikely to bring corporate executives to his DC summit with Trump; industry officials expected them at a dinner with top US tech CEOs (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260922/p28#a260922p28",
+          "date": "2026-09-22T13:35:01.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "a16z invests $35M in Horowitz Andreessen Academy, an independent, unaccredited two-year alternative to college; Anthropic, Meta, and others will provide compute (Katherine Bindley/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260922/p21#a260922p21",
+          "date": "2026-09-22T12:35:02.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "DoorDash agrees to a $131.5M settlement with NYC's DCWP to resolve a year-plus investigation into its compliance with the city's 2023 delivery driver pay law (Elias Schisgall/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260922/p17#a260922p17",
+          "date": "2026-09-22T12:00:49.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T12:00:49.000Z",
+      "expires": "2026-09-25T13:35:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+      "score": 11,
+      "why_now": "1 source(s), newest 28h ago",
+      "tags": [
+        "smb",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "Nvidia boss says there is ‘0% chance’ AI destroys the world by 2030",
+          "url": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+          "date": "2026-09-21T10:31:47.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T10:31:47.000Z",
+      "expires": "2026-09-24T10:31:47.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "1 Feature, 11 Human Interventions",
+      "score": 10.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "1 Feature, 11 Human Interventions",
+          "url": "https://www.inc.com/don-gregori/1-feature-11-human-interventions/91407967",
+          "date": "2026-09-22T12:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T12:00:00.000Z",
+      "expires": "2026-09-25T12:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Implementing AI Agents Could Reshape Your Workforce",
+      "score": 10.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Implementing AI Agents Could Reshape Your Workforce",
+          "url": "https://www.inc.com/michael-podolsky/implementing-ai-agents-could-reshape-your-workforce/91407280",
+          "date": "2026-09-22T12:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T12:00:00.000Z",
+      "expires": "2026-09-25T12:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "How V7 gives AI agents institutional memory",
+      "score": 10,
+      "why_now": "1 source(s), newest 38h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "How V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7",
+          "date": "2026-09-21T00:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T00:00:00.000Z",
+      "expires": "2026-09-24T00:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+      "score": 9.8,
+      "why_now": "1 source(s), newest 5h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "wired-ai",
+          "title": "A New Chatbot Wants to Unlock the Secrets in Tattered Ancient Greek Records",
+          "url": "https://www.wired.com/story/apollo-ai-model-ancient-greek-secrets-papyrus/",
+          "date": "2026-09-22T09:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T09:30:00.000Z",
+      "expires": "2026-09-25T09:30:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Google's $899 Googlebook is a bet that you'll buy a new laptop for Gemini",
+      "score": 9.6,
+      "why_now": "2 source(s), newest 21h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Google's $899 Googlebook is a bet that you'll buy a new laptop for Gemini",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "date": "2026-09-21T14:39:22.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "Google confirms Gemini models hacked three companies in May 2026",
+          "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+          "date": "2026-09-21T16:57:26.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T14:39:22.000Z",
+      "expires": "2026-09-24T16:57:26.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "AI vs. automation: What's the difference?",
+      "score": 9.6,
+      "why_now": "1 source(s), newest 9h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "AI vs. automation: What's the difference?",
+          "url": "https://zapier.com/blog/automation-vs-ai",
+          "date": "2026-09-22T05:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T05:00:00.000Z",
+      "expires": "2026-09-25T05:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI’s George Osborne says datacentre nimbys holding back Britain",
+      "score": 9.3,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI’s George Osborne says datacentre nimbys holding back Britain",
+          "url": "https://www.theguardian.com/politics/2026/sep/22/george-osborne-ai-datacentre-nimbys-holding-back-britain",
+          "date": "2026-09-22T11:46:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T11:46:01.000Z",
+      "expires": "2026-09-25T11:46:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Don’t be fooled by this summer of AI hype",
+      "score": 9.2,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "mit-tech-review-ai",
+          "title": "Don’t be fooled by this summer of AI hype",
+          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+          "date": "2026-09-22T11:04:51.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T11:04:51.000Z",
+      "expires": "2026-09-25T11:04:51.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Amazon blocks Meta’s Muse AI agent",
+      "score": 8.9,
+      "why_now": "2 source(s), newest 20h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta's AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "date": "2026-09-21T17:55:18.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "Amazon blocks Meta’s Muse AI agent",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "date": "2026-09-21T09:21:47.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T09:21:47.000Z",
+      "expires": "2026-09-24T17:55:18.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+      "score": 7.5,
+      "why_now": "1 source(s), newest 10h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "British Columbia sues OpenAI and Sam Altman over Tumbler Ridge mass school shooting",
+          "url": "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+          "date": "2026-09-22T04:29:22.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T04:29:22.000Z",
+      "expires": "2026-09-25T04:29:22.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Transformers now runs llama.cpp quants",
+      "score": 7.4,
+      "why_now": "1 source(s), newest 14h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "huggingface",
+          "title": "Transformers now runs llama.cpp quants",
+          "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+          "date": "2026-09-22T00:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T00:00:00.000Z",
+      "expires": "2026-09-25T00:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "UN says AI safeguards can’t wait for certainty",
+      "score": 7,
+      "why_now": "1 source(s), newest 28h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "UN says AI safeguards can’t wait for certainty",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "date": "2026-09-21T10:18:06.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T10:18:06.000Z",
+      "expires": "2026-09-24T10:18:06.000Z",
+      "kind": "news"
+    }
+  ]
+}
