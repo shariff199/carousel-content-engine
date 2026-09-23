@@ -1,0 +1,623 @@
+{
+  "generated_at": "2026-09-23T14:44:57.515Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 13
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 39
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 18
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    }
+  ],
+  "items_seen": 181,
+  "trends": [
+    {
+      "topic": "Introducing GPT-6 Sol and Luna",
+      "score": 29.4,
+      "why_now": "5 source(s), newest 2h ago, official announcement",
+      "tags": [
+        "major-ai",
+        "launch",
+        "pricing"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 5,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+          "date": "2026-09-22T18:10:22.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "date": "2026-09-22T18:00:00.000Z"
+        },
+        {
+          "source": "openai",
+          "title": "Introducing GPT-6 Sol and Luna",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+          "date": "2026-09-22T18:00:00.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "OpenAI says it will give its AI cyber defense system Daybreak and GPT-5.6 Sol to the Ukrainian government for free to help it protect civilian infrastructure (Zoe Kleinman/BBC)",
+          "url": "https://www.techmeme.com/260923/p19#a260923p19",
+          "date": "2026-09-23T12:15:02.000Z"
+        },
+        {
+          "source": "zapier",
+          "title": "OpenAI models: Every model (including GPT-6) and what it's best for",
+          "url": "https://zapier.com/blog/openai-models",
+          "date": "2026-09-22T04:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T04:00:00.000Z",
+      "expires": "2026-09-26T12:15:02.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "score": 19.5,
+      "why_now": "1 source(s), newest 22h ago",
+      "tags": [
+        "smb-tools",
+        "smb",
+        "launch",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+          "date": "2026-09-22T16:34:08.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T16:34:08.000Z",
+      "expires": "2026-09-25T16:34:08.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "score": 15.6,
+      "why_now": "2 source(s), newest 2h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "bbc-tech",
+          "title": "OpenAI gives cyber defence tools to Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-23T12:01:37.000Z"
+        },
+        {
+          "source": "openai",
+          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "date": "2026-09-23T13:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T12:01:37.000Z",
+      "expires": "2026-09-26T13:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Amazon shuts out Meta's Muse",
+      "score": 15.1,
+      "why_now": "4 source(s), newest 20h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 4,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta admits Muse's likeness to OpenClaw isn't a coincidence",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "date": "2026-09-22T19:09:11.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "Meta patches Muse exploit that let attackers control the AI agent",
+          "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+          "date": "2026-09-22T11:53:58.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "date": "2026-09-21T22:24:38.000Z"
+        },
+        {
+          "source": "therundown",
+          "title": "Amazon shuts out Meta's Muse",
+          "url": "https://therundownai.beehiiv.com/p/amazon-shuts-out-meta-s-muse",
+          "date": "2026-09-22T10:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T22:24:38.000Z",
+      "expires": "2026-09-25T19:09:11.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Claude integrations: How to use Zapier with Claude (Fable 5.1, Opus 5.5, and more)",
+      "score": 15.1,
+      "why_now": "1 source(s), newest 8h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "Claude integrations: How to use Zapier with Claude (Fable 5.1, Opus 5.5, and more)",
+          "url": "https://zapier.com/blog/automate-claude",
+          "date": "2026-09-23T07:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T07:00:00.000Z",
+      "expires": "2026-09-26T07:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+      "score": 14.1,
+      "why_now": "1 source(s), newest 4h ago",
+      "tags": [
+        "launch",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "OpenAI nabs key Patreon execs ahead of upcoming announcement",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+          "date": "2026-09-23T11:02:39.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T11:02:39.000Z",
+      "expires": "2026-09-26T11:02:39.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Extending public sector intelligence with Agentforce and AWS",
+      "score": 13.1,
+      "why_now": "1 source(s), newest 23h ago, official announcement",
+      "tags": [
+        "smb-tools",
+        "smb",
+        "automation"
+      ],
+      "suggested_template": "T2",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Extending public sector intelligence with Agentforce and AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
+          "date": "2026-09-22T15:17:45.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T15:17:45.000Z",
+      "expires": "2026-09-25T15:17:45.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "ChatGPT automation: How to use the Zapier ChatGPT integration (GPT-6 + more)",
+      "score": 12.1,
+      "why_now": "1 source(s), newest 8h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "ChatGPT automation: How to use the Zapier ChatGPT integration (GPT-6 + more)",
+          "url": "https://zapier.com/blog/automate-chatgpt",
+          "date": "2026-09-23T07:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T07:00:00.000Z",
+      "expires": "2026-09-26T07:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Claude Opus 5.5 is now available on AWS",
+      "score": 11.7,
+      "why_now": "1 source(s), newest 21h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Claude Opus 5.5 is now available on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+          "date": "2026-09-22T17:28:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T17:28:01.000Z",
+      "expires": "2026-09-25T17:28:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Which AI models can you automate on Zapier? (OpenAI, Anthropic, Google, Moonshot AI, Z.ai, and more)",
+      "score": 11.6,
+      "why_now": "1 source(s), newest 10h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "Which AI models can you automate on Zapier? (OpenAI, Anthropic, Google, Moonshot AI, Z.ai, and more)",
+          "url": "https://zapier.com/blog/ai-models-on-zapier",
+          "date": "2026-09-23T05:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T05:00:00.000Z",
+      "expires": "2026-09-26T05:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "score": 11.5,
+      "why_now": "1 source(s), newest 18h ago",
+      "tags": [
+        "smb",
+        "automation"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+          "date": "2026-09-22T20:52:40.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T20:52:40.000Z",
+      "expires": "2026-09-25T20:52:40.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+      "score": 11.1,
+      "why_now": "1 source(s), newest 24h ago",
+      "tags": [
+        "smb",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda",
+          "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+          "date": "2026-09-22T15:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T15:00:00.000Z",
+      "expires": "2026-09-25T15:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "score": 11,
+      "why_now": "1 source(s), newest 44h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
+          "date": "2026-09-21T18:30:34.000Z"
+        }
+      ],
+      "first_seen": "2026-09-21T18:30:34.000Z",
+      "expires": "2026-09-24T18:30:34.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "ChatGPT Ads Convert 1.5 Times Better, but They Aren’t for Every Brand",
+      "score": 10.6,
+      "why_now": "1 source(s), newest 6h ago",
+      "tags": [
+        "major-ai",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "ChatGPT Ads Convert 1.5 Times Better, but They Aren’t for Every Brand",
+          "url": "https://www.inc.com/amy-zwagerman/chatgpt-ads-convert-1-5-times-better-but-they-arent-for-every-brand/91409026",
+          "date": "2026-09-23T09:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T09:00:00.000Z",
+      "expires": "2026-09-26T09:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+      "score": 9.9,
+      "why_now": "1 source(s), newest 4h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "wired-ai",
+          "title": "AT&T Is Automating Away Jobs—and Its Old Telecom Empire",
+          "url": "https://www.wired.com/story/atandt-is-automating-away-its-old-telecom-empire/",
+          "date": "2026-09-23T10:15:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T10:15:00.000Z",
+      "expires": "2026-09-26T10:15:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "YouTube will let you build your own algorithm with AI",
+      "score": 9.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "YouTube will let you build your own algorithm with AI",
+          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
+          "date": "2026-09-23T14:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T14:30:00.000Z",
+      "expires": "2026-09-26T14:30:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta Keeps Apologizing For Muse. Its Explanations Miss the Point Entirely",
+      "score": 9.6,
+      "why_now": "1 source(s), newest 5h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Meta Keeps Apologizing For Muse. Its Explanations Miss the Point Entirely",
+          "url": "https://www.inc.com/jason-aten/meta-keeps-apologizing-for-muse-its-explanations-miss-the-point-entirely/91409363",
+          "date": "2026-09-23T09:15:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T09:15:00.000Z",
+      "expires": "2026-09-26T09:15:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "How would AI actually ‘kill all humans’? Here are the top five most likely scenarios | Toby Walsh",
+      "score": 9.5,
+      "why_now": "1 source(s), newest 14h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "How would AI actually ‘kill all humans’? Here are the top five most likely scenarios | Toby Walsh",
+          "url": "https://www.theguardian.com/australia-news/commentisfree/2026/sep/23/how-would-ai-actually-kill-all-humans-here-are-the-top-five-most-likely-scenarios",
+          "date": "2026-09-23T00:51:57.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T00:51:57.000Z",
+      "expires": "2026-09-26T00:51:57.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "score": 9.4,
+      "why_now": "1 source(s), newest 14h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+          "date": "2026-09-23T00:17:17.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T00:17:17.000Z",
+      "expires": "2026-09-26T00:17:17.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Your Products Could Be Invisible to ChatGPT. Here’s How to Check in 30 Seconds.",
+      "score": 8.9,
+      "why_now": "1 source(s), newest 20h ago",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "entrepreneur",
+          "title": "Your Products Could Be Invisible to ChatGPT. Here’s How to Check in 30 Seconds.",
+          "url": "https://www.entrepreneur.com/building-a-business/your-products-could-be-invisible-to-chatgpt-heres-how-to-check-30-seconds",
+          "date": "2026-09-22T18:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-22T18:30:00.000Z",
+      "expires": "2026-09-25T18:30:00.000Z",
+      "kind": "news"
+    }
+  ]
+}

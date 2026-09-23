@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-23",
+  "weekday": 3,
+  "kind": "resource",
+  "templates": [
+    "t2"
+  ],
+  "theme": "a saveable resource for small-business owners: ready-to-copy messages, email templates, checklists or AI prompts for a common job (enquiries, follow-ups, reviews, bookings, reminders)",
+  "fallback": "picker found no story an owner would save, or no readable article",
+  "picker": {
+    "error": "GEMINI_API_KEY missing"
+  },
+  "pick": null
+}
