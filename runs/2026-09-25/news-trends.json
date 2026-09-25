@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-09-25T15:02:13.347Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 12
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    }
+  ],
+  "items_seen": 172,
+  "trends": [
+    {
+      "topic": "Ando, which is building a team messaging platform for both humans and AI agents, comes out of stealth with $20M in pre-seed and seed funding (Dominic-Madori Davis/TechCrunch)",
+      "score": 17.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "smb-tools",
+        "automation",
+        "pricing"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Ando, which is building a team messaging platform for both humans and AI agents, comes out of stealth with $20M in pre-seed and seed funding (Dominic-Madori Davis/TechCrunch)",
+          "url": "https://www.techmeme.com/260925/p8#a260925p8",
+          "date": "2026-09-25T14:45:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T14:45:01.000Z",
+      "expires": "2026-09-28T14:45:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "score": 16.3,
+      "why_now": "2 source(s), newest 3h ago",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+          "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "date": "2026-09-25T12:00:00.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "Microsoft launches its Copilot \"super app\", bundling chat, coding, and agents into a single interface, and rebrands its AI assistant Scout as Autopilot (Tom Warren/The Verge)",
+          "url": "https://www.techmeme.com/260925/p5#a260925p5",
+          "date": "2026-09-25T12:15:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T12:00:00.000Z",
+      "expires": "2026-09-28T12:15:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma",
+      "score": 16,
+      "why_now": "2 source(s), newest 0h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma",
+          "url": "https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence",
+          "date": "2026-09-25T15:00:09.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+          "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+          "date": "2026-09-24T16:01:16.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T16:01:16.000Z",
+      "expires": "2026-09-28T15:00:09.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Your Marketing Agent Has 1 Weakness: It Believes the Information You Give It",
+      "score": 13.5,
+      "why_now": "1 source(s), newest 18h ago",
+      "tags": [
+        "smb-tools",
+        "automation",
+        "web"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Your Marketing Agent Has 1 Weakness: It Believes the Information You Give It",
+          "url": "https://www.inc.com/robert-gillespie/your-marketing-agent-has-1-weakness-it-believes-the-information-you-give-it/91409555",
+          "date": "2026-09-24T21:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T21:00:00.000Z",
+      "expires": "2026-09-27T21:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Introducing Gemini 3.8 Live with Live Avatar",
+      "score": 13.2,
+      "why_now": "2 source(s), newest 19h ago, official announcement",
+      "tags": [
+        "major-ai",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Gemini 3.8 Live with Live Avatar gives Google's AI a face",
+          "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "date": "2026-09-24T19:59:26.000Z"
+        },
+        {
+          "source": "google-deepmind",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "date": "2026-09-24T16:20:39.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T16:20:39.000Z",
+      "expires": "2026-09-27T19:59:26.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall",
+      "score": 13,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "automation",
+        "web"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "NSW crackdown on ‘AI-doctored’ real estate listings hits mural-covered wall",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/26/nsw-crackdown-on-ai-doctored-real-estate-listings-hits-mural-covered-wall",
+          "date": "2026-09-25T15:00:10.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T15:00:10.000Z",
+      "expires": "2026-09-28T15:00:10.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Radical Ventures: AI neolabs, many lacking products, markets, or revenue, raised $24B in the past two quarters, nearly 5x OpenAI and Anthropic pre-ChatGPT (Louise Lucas/Financial Times)",
+      "score": 12.9,
+      "why_now": "2 source(s), newest 9h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Radical Ventures: AI neolabs, many lacking products, markets, or revenue, raised $24B in the past two quarters, nearly 5x OpenAI and Anthropic pre-ChatGPT (Louise Lucas/Financial Times)",
+          "url": "https://www.techmeme.com/260925/p2#a260925p2",
+          "date": "2026-09-25T06:30:01.000Z"
+        },
+        {
+          "source": "bbc-tech",
+          "title": "US rejects pleas from OpenAI, Anthropic for global AI standards",
+          "url": "https://www.bbc.co.uk/news/articles/ck87v27vdn1po?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-23T22:35:14.000Z"
+        }
+      ],
+      "first_seen": "2026-09-23T22:35:14.000Z",
+      "expires": "2026-09-28T06:30:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Everything new coming to Meta's AI agent Muse",
+      "score": 12.7,
+      "why_now": "2 source(s), newest 5h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Everything new coming to Meta's AI agent Muse",
+          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+          "date": "2026-09-24T01:13:32.000Z"
+        },
+        {
+          "source": "therundown",
+          "title": "Meta's Connect turns into a Muse takeover",
+          "url": "https://therundownai.beehiiv.com/p/meta-connect-turns-into-a-muse-takeover",
+          "date": "2026-09-25T10:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T01:13:32.000Z",
+      "expires": "2026-09-28T10:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
+      "score": 10.7,
+      "why_now": "1 source(s), newest 9h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "PM rejects ‘nonsense’ suggestion he delayed revealing OpenAI Medicare hack as Labor considers changing laws",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/25/wake-up-call-labor-considers-changing-australian-laws-after-openai-medicare-hack",
+          "date": "2026-09-25T05:57:17.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T05:57:17.000Z",
+      "expires": "2026-09-28T05:57:17.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Muse sure looks a lot like OpenClaw",
+      "score": 10.5,
+      "why_now": "1 source(s), newest 22h ago",
+      "tags": [
+        "automation",
+        "launch",
+        "pricing"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Muse sure looks a lot like OpenClaw",
+          "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+          "date": "2026-09-24T17:10:38.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T17:10:38.000Z",
+      "expires": "2026-09-27T17:10:38.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+      "score": 10,
+      "why_now": "1 source(s), newest 25h ago",
+      "tags": [
+        "smb-tools",
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Ando wants to take on Slack with a team messaging app that lets humans and agents work together",
+          "url": "https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/",
+          "date": "2026-09-24T14:31:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T14:31:00.000Z",
+      "expires": "2026-09-27T14:31:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Australia to investigate if OpenAI hack of government health website broke the law",
+      "score": 10,
+      "why_now": "2 source(s), newest 25h ago",
+      "tags": [
+        "major-ai",
+        "web",
+        "automation"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+          "date": "2026-09-24T12:54:19.000Z"
+        },
+        {
+          "source": "bbc-tech",
+          "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+          "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-24T14:08:38.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T12:54:19.000Z",
+      "expires": "2026-09-27T14:08:38.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "What is Claude Code?",
+      "score": 10,
+      "why_now": "1 source(s), newest 35h ago, official announcement",
+      "tags": [
+        "smb-tools",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "What is Claude Code?",
+          "url": "https://zapier.com/blog/claude-code",
+          "date": "2026-09-24T04:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T04:00:00.000Z",
+      "expires": "2026-09-27T04:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom",
+      "score": 10,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "It’s going to take more than an email to a public inbox to protect Australians from potential AI doom",
+          "url": "https://www.theguardian.com/technology/2026/sep/25/australia-medicare-openai-hack-safeguarding-un-leaders",
+          "date": "2026-09-25T14:58:32.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T14:58:32.000Z",
+      "expires": "2026-09-28T14:58:32.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Special agents' blood and urine test results stolen in FBI hack",
+      "score": 9.7,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "bbc-tech",
+          "title": "Special agents' blood and urine test results stolen in FBI hack",
+          "url": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-25T13:56:16.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T13:56:16.000Z",
+      "expires": "2026-09-28T13:56:16.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "score": 9.3,
+      "why_now": "1 source(s), newest 23h ago",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+          "date": "2026-09-24T16:04:31.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T16:04:31.000Z",
+      "expires": "2026-09-27T16:04:31.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein",
+      "score": 9.2,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "It’s not hypothetical: the dangers of AI are already here | Granate Kim and Mohamed Hussein",
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/25/ai-israel-gaza-iran-police-surveillance",
+          "date": "2026-09-25T12:00:50.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T12:00:50.000Z",
+      "expires": "2026-09-28T12:00:50.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "score": 8.5,
+      "why_now": "2 source(s), newest 22h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+          "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "date": "2026-09-24T17:00:00.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+          "date": "2026-09-24T00:46:17.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T00:46:17.000Z",
+      "expires": "2026-09-27T17:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+      "score": 8.2,
+      "why_now": "1 source(s), newest 23h ago",
+      "tags": [
+        "automation",
+        "major-ai",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "bbc-tech",
+          "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-24T15:42:07.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T15:42:07.000Z",
+      "expires": "2026-09-27T15:42:07.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "I Think I Found an AI Agent Worth the Risk",
+      "score": 8.1,
+      "why_now": "1 source(s), newest 19h ago",
+      "tags": [
+        "automation",
+        "pricing"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "wired-ai",
+          "title": "I Think I Found an AI Agent Worth the Risk",
+          "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+          "date": "2026-09-24T19:36:35.000Z"
+        }
+      ],
+      "first_seen": "2026-09-24T19:36:35.000Z",
+      "expires": "2026-09-27T19:36:35.000Z",
+      "kind": "news"
+    }
+  ]
+}
