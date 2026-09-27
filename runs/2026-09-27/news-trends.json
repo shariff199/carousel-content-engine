@@ -1,0 +1,487 @@
+{
+  "generated_at": "2026-09-27T15:01:10.830Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 17
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    }
+  ],
+  "items_seen": 124,
+  "trends": [
+    {
+      "topic": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "score": 19.1,
+      "why_now": "4 source(s), newest 12h ago",
+      "tags": [
+        "automation",
+        "major-ai",
+        "launch",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 4,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta opens early access program for new Muse features",
+          "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+          "date": "2026-09-25T20:34:53.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+          "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+          "date": "2026-09-25T18:22:47.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+          "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+          "date": "2026-09-25T16:16:52.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "Meta makes the Muse filesystem even more accessible",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+          "date": "2026-09-25T16:49:53.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "‘Charming and disarming’ … how Meta’s technology-packed Muse harnesses the power of cuteness",
+          "url": "https://www.theguardian.com/fashion/2026/sep/26/charming-and-disarming-how-metas-technology-packed-muse-harnesses-the-power-of-cuteness",
+          "date": "2026-09-26T17:09:28.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T16:16:52.000Z",
+      "expires": "2026-09-30T03:20:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns",
+      "score": 13,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "Australia is run on legacy systems that AI agents can easily exploit, former UN cyber negotiator warns",
+          "url": "https://www.theguardian.com/technology/2026/sep/28/australia-is-run-on-legacy-systems-that-ai-agents-can-easily-exploit-former-un-cyber-negotiator-warns",
+          "date": "2026-09-27T15:00:08.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T15:00:08.000Z",
+      "expires": "2026-09-30T15:00:08.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Research: OpenAI agents scanned a UN data hub 16K+ times between April and the end of June, and circumvented a filter that was blocking their requests for data (Robert McMillan/Wall Street Journal)",
+      "score": 10.7,
+      "why_now": "1 source(s), newest 9h ago",
+      "tags": [
+        "major-ai",
+        "automation"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "How effective altruism shaped AI safety and Anthropic; some early Anthropic employees are considering buying remote US land for relocation if AI goes awry (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260927/p4#a260927p4",
+          "date": "2026-09-27T06:00:02.000Z"
+        },
+        {
+          "source": "techmeme",
+          "title": "Research: OpenAI agents scanned a UN data hub 16K+ times between April and the end of June, and circumvented a filter that was blocking their requests for data (Robert McMillan/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260926/p19#a260926p19",
+          "date": "2026-09-27T03:15:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T03:15:01.000Z",
+      "expires": "2026-09-30T06:00:02.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?",
+      "score": 10,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "‘I can’t be the mum I want to be’: why does parenthood feel so impossible for millennial mothers?",
+          "url": "https://www.theguardian.com/lifeandstyle/2026/sep/28/parenthood-millennial-mothers-overwhelmed",
+          "date": "2026-09-27T15:00:09.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T15:00:09.000Z",
+      "expires": "2026-09-30T15:00:09.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Databricks CEO Says the Biggest AI Threat Isn’t Superintelligence",
+      "score": 10,
+      "why_now": "1 source(s), newest 4h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Databricks CEO Says the Biggest AI Threat Isn’t Superintelligence",
+          "url": "https://www.inc.com/chris-morris/databricks-ceo-says-the-biggest-ai-threat-isnt-superintelligence/91409495",
+          "date": "2026-09-27T11:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T11:00:00.000Z",
+      "expires": "2026-09-30T11:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "score": 9.5,
+      "why_now": "1 source(s), newest 14h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+          "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+          "date": "2026-09-27T01:10:21.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T01:10:21.000Z",
+      "expires": "2026-09-30T01:10:21.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "score": 7,
+      "why_now": "1 source(s), newest 44h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction",
+          "date": "2026-09-25T19:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T19:00:00.000Z",
+      "expires": "2026-09-28T19:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge",
+      "score": 7,
+      "why_now": "1 source(s), newest 41h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge",
+          "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+          "date": "2026-09-25T22:20:47.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T22:20:47.000Z",
+      "expires": "2026-09-28T22:20:47.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta’s AI Tamagotchi bet is…working?",
+      "score": 7,
+      "why_now": "1 source(s), newest 47h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta’s AI Tamagotchi bet is…working?",
+          "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+          "date": "2026-09-25T16:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T16:00:00.000Z",
+      "expires": "2026-09-28T16:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "For months, OpenAI's agent swarms have been attacking online databases to find obscure facts",
+      "score": 7,
+      "why_now": "1 source(s), newest 47h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "For months, OpenAI's agent swarms have been attacking online databases to find obscure facts",
+          "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+          "date": "2026-09-25T15:48:14.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T15:48:14.000Z",
+      "expires": "2026-09-28T15:48:14.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "One company is at the center of a wave of rogue AI attacks",
+      "score": 7,
+      "why_now": "1 source(s), newest 47h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "One company is at the center of a wave of rogue AI attacks",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+          "date": "2026-09-25T15:39:48.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T15:39:48.000Z",
+      "expires": "2026-09-28T15:39:48.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+      "score": 7,
+      "why_now": "1 source(s), newest 39h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+          "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+          "date": "2026-09-26T00:24:43.000Z"
+        }
+      ],
+      "first_seen": "2026-09-26T00:24:43.000Z",
+      "expires": "2026-09-29T00:24:43.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "score": 6.6,
+      "why_now": "1 source(s), newest 14h ago",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+          "date": "2026-09-27T01:30:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-27T01:30:00.000Z",
+      "expires": "2026-09-30T01:30:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "score": 6,
+      "why_now": "1 source(s), newest 44h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+          "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+          "date": "2026-09-25T19:13:38.000Z"
+        }
+      ],
+      "first_seen": "2026-09-25T19:13:38.000Z",
+      "expires": "2026-09-28T19:13:38.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "I Built a 7-Person Marketing Team Using AI. Here’s the Exact Setup.",
+      "score": 6,
+      "why_now": "1 source(s), newest 37h ago",
+      "tags": [
+        "automation",
+        "web"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "entrepreneur",
+          "title": "I Built a 7-Person Marketing Team Using AI. Here’s the Exact Setup.",
+          "url": "https://www.entrepreneur.com/business-news/i-built-a-7-person-marketing-team-using-ai-heres-the-exact-setup",
+          "date": "2026-09-26T02:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-26T02:00:00.000Z",
+      "expires": "2026-09-29T02:00:00.000Z",
+      "kind": "news"
+    }
+  ]
+}
