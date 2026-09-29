@@ -1,0 +1,630 @@
+{
+  "generated_at": "2026-09-29T16:22:09.106Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 8
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 17
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 38
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "hn-ai",
+      "ok": true,
+      "items": 12
+    }
+  ],
+  "items_seen": 170,
+  "trends": [
+    {
+      "topic": "Meta is expanding its AI agent Muse to small businesses",
+      "score": 23.4,
+      "why_now": "3 source(s), newest 2h ago, official announcement",
+      "tags": [
+        "smb",
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 3,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Meta is expanding its AI agent Muse to small businesses",
+          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+          "date": "2026-09-29T13:47:30.000Z"
+        },
+        {
+          "source": "zapier",
+          "title": "Meta selects Zapier as named Connector inside Muse",
+          "url": "https://zapier.com/blog/zapier-connector-in-muse",
+          "date": "2026-09-29T04:00:00.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+          "url": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
+          "date": "2026-09-29T13:58:36.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T04:00:00.000Z",
+      "expires": "2026-10-02T13:58:36.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI reportedly ditches model over safety concerns",
+      "score": 20.7,
+      "why_now": "3 source(s), newest 5h ago",
+      "tags": [
+        "major-ai",
+        "launch",
+        "web",
+        "automation"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 3,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "OpenAI reportedly ditches model over safety concerns",
+          "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+          "date": "2026-09-28T23:39:20.000Z"
+        },
+        {
+          "source": "wired-ai",
+          "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+          "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+          "date": "2026-09-29T10:36:22.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI scraps release of new model over safety concerns in internal testing",
+          "url": "https://www.theguardian.com/technology/2026/sep/28/openai-new-model-astra-release-scrapped",
+          "date": "2026-09-29T11:16:31.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T23:39:20.000Z",
+      "expires": "2026-10-02T11:16:31.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Trump officially launches America.gov, an AI-powered single access point for federal government services and information led by Airbnb co-founder Joe Gebbia (Mallory Wilson/The Hill)",
+      "score": 17.8,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "smb",
+        "launch",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Trump officially launches America.gov, an AI-powered single access point for federal government services and information led by Airbnb co-founder Joe Gebbia (Mallory Wilson/The Hill)",
+          "url": "https://www.techmeme.com/260929/p25#a260929p25",
+          "date": "2026-09-29T15:35:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T15:35:01.000Z",
+      "expires": "2026-10-02T15:35:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta's Muse AI sent a YouTuber’s address to a stranger",
+      "score": 16.5,
+      "why_now": "2 source(s), newest 2h ago",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Meta's Muse AI sent a YouTuber’s address to a stranger",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+          "date": "2026-09-29T14:08:21.000Z"
+        },
+        {
+          "source": "hn-ai",
+          "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+          "date": "2026-09-29T14:15:24.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:08:21.000Z",
+      "expires": "2026-10-02T14:15:24.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "In a July letter to Rep. Jamie Raskin, Apple explained it removed ICEBlock and similar ICE-tracking apps in 2025 due to agent and detainee safety concerns (Clare Duffy/CNN)",
+      "score": 15.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "smb",
+        "automation"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "In a July letter to Rep. Jamie Raskin, Apple explained it removed ICEBlock and similar ICE-tracking apps in 2025 due to agent and detainee safety concerns (Clare Duffy/CNN)",
+          "url": "https://www.techmeme.com/260929/p21#a260929p21",
+          "date": "2026-09-29T14:00:40.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:00:40.000Z",
+      "expires": "2026-10-02T14:00:40.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Anthropic will not appear at Senate inquiry into AI and datacentres amid fallout from OpenAI hack",
+      "score": 15.2,
+      "why_now": "2 source(s), newest 11h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "Which AI models can you automate on Zapier? (OpenAI, Anthropic, Google, Moonshot AI, Z.ai, and more)",
+          "url": "https://zapier.com/blog/ai-models-on-zapier",
+          "date": "2026-09-28T05:00:00.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "As AI models go rogue, do you still trust OpenAI and Anthropic to stop them? I don’t and neither should you | Chris Stokel-Walker",
+          "url": "https://www.theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
+          "date": "2026-09-29T05:00:54.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "Anthropic will not appear at Senate inquiry into AI and datacentres amid fallout from OpenAI hack",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/28/anthropic-will-not-appear-at-senate-inquiry-into-ai-and-datacentres-amid-fallout-from-openai-hack-ntwnfb",
+          "date": "2026-09-28T08:00:26.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T05:00:00.000Z",
+      "expires": "2026-10-02T05:00:54.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Revealed: the five-paragraph email OpenAI used to inform Australia about agent attack",
+      "score": 15.1,
+      "why_now": "2 source(s), newest 4h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
+          "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+          "date": "2026-09-29T12:45:05.000Z"
+        },
+        {
+          "source": "guardian-ai",
+          "title": "Revealed: the five-paragraph email OpenAI used to inform Australia about agent attack",
+          "url": "https://www.theguardian.com/technology/2026/sep/29/openai-apology-rogue-agent-hacked-medicare-australian-government-websites",
+          "date": "2026-09-29T11:04:05.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T11:04:05.000Z",
+      "expires": "2026-10-02T12:45:05.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "How a New ChatGPT Integration Could Solve the Biggest E-Commerce Shipping Headaches",
+      "score": 14.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "How a New ChatGPT Integration Could Solve the Biggest E-Commerce Shipping Headaches",
+          "url": "https://www.inc.com/aaron-mok/how-a-new-chatgpt-integration-could-solve-the-biggest-e-commerce-shipping-headaches/91409492",
+          "date": "2026-09-29T16:03:02.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T16:03:02.000Z",
+      "expires": "2026-10-02T16:03:02.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Campbell’s, Conagra, and Clorox Are Raising Prices. Here’s the Lesson for Small Businesses",
+      "score": 14.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "smb",
+        "web",
+        "pricing"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Snickers Keeps Reinventing the Same Joke. That’s the Lesson for Small Businesses",
+          "url": "https://www.inc.com/robin-landa/snickers-keeps-reinventing-the-same-joke-thats-the-lesson-for-small-businesses/91411588",
+          "date": "2026-09-29T14:00:00.000Z"
+        },
+        {
+          "source": "inc",
+          "title": "Campbell’s, Conagra, and Clorox Are Raising Prices. Here’s the Lesson for Small Businesses",
+          "url": "https://www.inc.com/david-finkel/campbells-conagra-and-clorox-are-raising-prices-heres-the-lesson-for-small-businesses/91410208",
+          "date": "2026-09-29T00:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T00:00:00.000Z",
+      "expires": "2026-10-02T14:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Q&A with Timnit Gebru, who says the \"existential risk\" narrative is a harmful marketing strategy and the \"stochastic parrots\" metaphor is not outdated (Lauren Goode/Wired)",
+      "score": 13.8,
+      "why_now": "1 source(s), newest 5h ago",
+      "tags": [
+        "smb",
+        "web"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Q&A with Timnit Gebru, who says the \"existential risk\" narrative is a harmful marketing strategy and the \"stochastic parrots\" metaphor is not outdated (Lauren Goode/Wired)",
+          "url": "https://www.techmeme.com/260929/p17#a260929p17",
+          "date": "2026-09-29T11:35:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T11:35:00.000Z",
+      "expires": "2026-10-02T11:35:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI DevDay 2026: The biggest news and announcements",
+      "score": 12.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "OpenAI DevDay 2026: The biggest news and announcements",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+          "date": "2026-09-29T16:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T16:00:00.000Z",
+      "expires": "2026-10-02T16:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Grok 4.7 is now available on Amazon Bedrock",
+      "score": 12.5,
+      "why_now": "1 source(s), newest 18h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Grok 4.7 is now available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+          "date": "2026-09-28T22:13:16.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T22:13:16.000Z",
+      "expires": "2026-10-01T22:13:16.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Nvidia Just Announced the Largest Share Buyback in History",
+      "score": 12.3,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Nvidia Just Announced the Largest Share Buyback in History",
+          "url": "https://www.inc.com/phil-rosen/nvidia-jensen-huang-largest-share-buyback-history-150-billion/91411277",
+          "date": "2026-09-29T13:28:45.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T13:28:45.000Z",
+      "expires": "2026-10-02T13:28:45.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "The AI agents are spiraling out of control",
+      "score": 12.1,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "The AI agents are spiraling out of control",
+          "url": "https://www.theguardian.com/global/2026/sep/28/ai-agents-spiral",
+          "date": "2026-09-29T12:52:50.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T12:52:50.000Z",
+      "expires": "2026-10-02T12:52:50.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI says planned GPT-6.1 is too insecure to release",
+      "score": 11.5,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "ars-ai",
+          "title": "OpenAI says planned GPT-6.1 is too insecure to release",
+          "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+          "date": "2026-09-29T14:22:31.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:22:31.000Z",
+      "expires": "2026-10-02T14:22:31.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Sources: OpenAI's ARR is nearing $70B, growing 70%+ since the beginning of Q3, with B2B revenue up 100%+; it added more consumer revenue in Q3 than all of 2025 (Madison Mills/Axios)",
+      "score": 11.5,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Sources: OpenAI's ARR is nearing $70B, growing 70%+ since the beginning of Q3, with B2B revenue up 100%+; it added more consumer revenue in Q3 than all of 2025 (Madison Mills/Axios)",
+          "url": "https://www.techmeme.com/260929/p22#a260929p22",
+          "date": "2026-09-29T14:25:40.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:25:40.000Z",
+      "expires": "2026-10-02T14:25:40.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Claude integrations: How to use Zapier with Claude (Fable 5.1, Opus 5.5, and more)",
+      "score": 11,
+      "why_now": "1 source(s), newest 33h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "Claude integrations: How to use Zapier with Claude (Fable 5.1, Opus 5.5, and more)",
+          "url": "https://zapier.com/blog/automate-claude",
+          "date": "2026-09-28T07:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T07:00:00.000Z",
+      "expires": "2026-10-01T07:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "The best large language models (LLMs) in 2026",
+      "score": 10.9,
+      "why_now": "1 source(s), newest 12h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "The best large language models (LLMs) in 2026",
+          "url": "https://zapier.com/blog/best-llm",
+          "date": "2026-09-29T04:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T04:00:00.000Z",
+      "expires": "2026-10-02T04:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Shopify opens checkout to browser-based AI agents",
+      "score": 10.8,
+      "why_now": "1 source(s), newest 21h ago",
+      "tags": [
+        "smb-tools",
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Shopify opens checkout to browser-based AI agents",
+          "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+          "date": "2026-09-28T19:33:57.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T19:33:57.000Z",
+      "expires": "2026-10-01T19:33:57.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "score": 10.8,
+      "why_now": "1 source(s), newest 1h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "huggingface",
+          "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "date": "2026-09-29T15:30:38.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T15:30:38.000Z",
+      "expires": "2026-10-02T15:30:38.000Z",
+      "kind": "news"
+    }
+  ]
+}
