@@ -1,0 +1,621 @@
+{
+  "generated_at": "2026-09-30T16:18:19.211Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 11
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 5
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 9
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 12
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 38
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "hn-ai",
+      "ok": true,
+      "items": 8
+    }
+  ],
+  "items_seen": 184,
+  "trends": [
+    {
+      "topic": "Meta’s AI agent Muse gives out user’s home address without permission, sending buyer to his house",
+      "score": 25.5,
+      "why_now": "5 source(s), newest 18h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 5,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "The internet is convinced Elon Musk's xAI trolled OpenAI's Dots' launch",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+          "date": "2026-09-29T22:20:59.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "OpenAI launches Dots, its bubbly agentic avatar",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+          "date": "2026-09-29T17:17:15.000Z"
+        },
+        {
+          "source": "verge-ai",
+          "title": "OpenAI launches Dots, its Muse competitor",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+          "date": "2026-09-29T17:15:00.000Z"
+        },
+        {
+          "source": "wired-ai",
+          "title": "OpenAI’s Dots Are Always-On AI Agents—and Its Answer to Meta’s Muse",
+          "url": "https://www.wired.com/story/openai-dots-always-on-ai-agents-that-proactively-help/",
+          "date": "2026-09-29T17:15:00.000Z"
+        },
+        {
+          "source": "zapier",
+          "title": "Meta selects Zapier as named Connector inside Muse",
+          "url": "https://zapier.com/blog/zapier-connector-in-muse",
+          "date": "2026-09-29T04:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T04:00:00.000Z",
+      "expires": "2026-10-02T22:20:59.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "DoorDash opens US waitlists for an Apple Messages-integrated AI agent for ordering and a B2B API allowing assistants like Slack bots to execute bulk orders (Natalie Lung/Bloomberg)",
+      "score": 18.2,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "smb-tools",
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "DoorDash opens US waitlists for an Apple Messages-integrated AI agent for ordering and a B2B API allowing assistants like Slack bots to execute bulk orders (Natalie Lung/Bloomberg)",
+          "url": "https://www.techmeme.com/260930/p23#a260930p23",
+          "date": "2026-09-30T13:05:02.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T13:05:02.000Z",
+      "expires": "2026-10-03T13:05:02.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+      "score": 17.5,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "smb",
+        "automation",
+        "pricing"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+          "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents/",
+          "date": "2026-09-30T14:27:11.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T14:27:11.000Z",
+      "expires": "2026-10-03T14:27:11.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "score": 15.8,
+      "why_now": "3 source(s), newest 21h ago, official announcement",
+      "tags": [
+        "major-ai",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 3,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+          "date": "2026-09-29T19:34:14.000Z"
+        },
+        {
+          "source": "techcrunch-ai",
+          "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+          "date": "2026-09-29T17:15:00.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "OpenAI says planned GPT-6.1 is too insecure to release",
+          "url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+          "date": "2026-09-29T14:22:31.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:22:31.000Z",
+      "expires": "2026-10-02T19:34:14.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI’s New Workshops for Small Businesses Could Help Lean Teams Punch Above Their Weight",
+      "score": 14.4,
+      "why_now": "1 source(s), newest 2h ago",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "OpenAI’s New Workshops for Small Businesses Could Help Lean Teams Punch Above Their Weight",
+          "url": "https://www.inc.com/aaron-mok/openais-new-workshops-for-small-businesses-could-help-lean-teams-punch-above-their-weight/91411843",
+          "date": "2026-09-30T14:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T14:00:00.000Z",
+      "expires": "2026-10-03T14:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "WhatsApp introduces optional parental controls for teenagers",
+      "score": 14.2,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "smb-tools",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "bbc-tech",
+          "title": "WhatsApp introduces optional parental controls for teenagers",
+          "url": "https://www.bbc.co.uk/news/articles/cm986x65we88o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-09-30T13:01:30.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T13:01:30.000Z",
+      "expires": "2026-10-03T13:01:30.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "DoorDash launches an AI agent you can text to order food",
+      "score": 13.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "DoorDash launches an AI agent you can text to order food",
+          "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+          "date": "2026-09-30T16:00:24.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T16:00:24.000Z",
+      "expires": "2026-10-03T16:00:24.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+      "score": 12.7,
+      "why_now": "1 source(s), newest 1h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "nvidia",
+          "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+          "url": "https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/",
+          "date": "2026-09-30T15:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T15:00:00.000Z",
+      "expires": "2026-10-03T15:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "An interview with OpenAI Chief Research Officer Mark Chen on the Hugging Face incident, slowing AI development, shifting 5%-10% of compute to safety, and more (Will Douglas Heaven/MIT Technology Review)",
+      "score": 12.6,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "An interview with OpenAI Chief Research Officer Mark Chen on the Hugging Face incident, slowing AI development, shifting 5%-10% of compute to safety, and more (Will Douglas Heaven/MIT Technology Review)",
+          "url": "https://www.techmeme.com/260930/p31#a260930p31",
+          "date": "2026-09-30T14:50:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T14:50:01.000Z",
+      "expires": "2026-10-03T14:50:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Seth Meyers on Trump canceling $1bn in federal funds: ‘Is he adding a waterslide to the reflecting pool?’",
+      "score": 11.9,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "pricing",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "Seth Meyers on Trump canceling $1bn in federal funds: ‘Is he adding a waterslide to the reflecting pool?’",
+          "url": "https://www.theguardian.com/culture/2026/sep/30/seth-meyers-trump-federal-funds-ai",
+          "date": "2026-09-30T15:46:19.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T15:46:19.000Z",
+      "expires": "2026-10-03T15:46:19.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "score": 11.6,
+      "why_now": "1 source(s), newest 6h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "mit-tech-review-ai",
+          "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+          "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+          "date": "2026-09-30T10:40:30.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T10:40:30.000Z",
+      "expires": "2026-10-03T10:40:30.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+      "score": 11.3,
+      "why_now": "1 source(s), newest 19h ago",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns",
+          "url": "https://www.theguardian.com/technology/2026/sep/29/openai-announces-dots-agent-safety-concerns",
+          "date": "2026-09-29T21:25:33.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T21:25:33.000Z",
+      "expires": "2026-10-02T21:25:33.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+      "score": 11.2,
+      "why_now": "1 source(s), newest 19h ago",
+      "tags": [
+        "smb",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "ars-ai",
+          "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+          "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+          "date": "2026-09-29T21:14:49.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T21:14:49.000Z",
+      "expires": "2026-10-02T21:14:49.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI connects the dots on always-on agents",
+      "score": 11.2,
+      "why_now": "1 source(s), newest 7h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "therundown",
+          "title": "OpenAI connects the dots on always-on agents",
+          "url": "https://therundownai.beehiiv.com/p/openai-connects-the-dots-on-always-on-agents",
+          "date": "2026-09-30T09:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T09:00:00.000Z",
+      "expires": "2026-10-03T09:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Sources: Google is paying ~100 digital publishers for how much their content contributes to AI Overviews, AI Mode, and Gemini in a pilot; payments vary widely (The Information)",
+      "score": 11.1,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "major-ai",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Sources: Google is paying ~100 digital publishers for how much their content contributes to AI Overviews, AI Mode, and Gemini in a pilot; payments vary widely (The Information)",
+          "url": "https://www.techmeme.com/260930/p22#a260930p22",
+          "date": "2026-09-30T12:50:01.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T12:50:01.000Z",
+      "expires": "2026-10-03T12:50:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Grok 4.7 is now available on Amazon Bedrock",
+      "score": 11,
+      "why_now": "1 source(s), newest 42h ago, official announcement",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Grok 4.7 is now available on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+          "date": "2026-09-28T22:13:16.000Z"
+        }
+      ],
+      "first_seen": "2026-09-28T22:13:16.000Z",
+      "expires": "2026-10-01T22:13:16.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Meta's Muse AI sent a YouTuber’s address to a stranger",
+      "score": 11,
+      "why_now": "2 source(s), newest 26h ago",
+      "tags": [
+        "automation",
+        "launch"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "Meta's Muse AI sent a YouTuber’s address to a stranger",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+          "date": "2026-09-29T14:08:21.000Z"
+        },
+        {
+          "source": "hn-ai",
+          "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+          "date": "2026-09-29T14:15:24.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T14:08:21.000Z",
+      "expires": "2026-10-02T14:15:24.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Adviser or AI? Why People Are Asking Chatbots Their Money Questions First",
+      "score": 10.9,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Adviser or AI? Why People Are Asking Chatbots Their Money Questions First",
+          "url": "https://www.inc.com/netta-jenkins/adviser-or-ai-why-people-are-asking-chatbots-their-money-questions-first/91411171",
+          "date": "2026-09-30T16:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T16:00:00.000Z",
+      "expires": "2026-10-03T16:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Workers Are Splitting Into 4 Groups as Automation Reshapes Careers",
+      "score": 10.7,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "Workers Are Splitting Into 4 Groups as Automation Reshapes Careers",
+          "url": "https://www.inc.com/bruce-crumley/workers-are-splitting-into-4-groups-as-automation-reshapes-careers/91412551",
+          "date": "2026-09-30T15:07:31.000Z"
+        }
+      ],
+      "first_seen": "2026-09-30T15:07:31.000Z",
+      "expires": "2026-10-03T15:07:31.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Here's why OpenAI is absent from Nvidia's industry-wide effort to end rogue AI agents",
+      "score": 10.6,
+      "why_now": "2 source(s), newest 22h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 2,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Here's why OpenAI is absent from Nvidia's industry-wide effort to end rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+          "date": "2026-09-29T18:35:00.000Z"
+        },
+        {
+          "source": "ars-ai",
+          "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
+          "url": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/",
+          "date": "2026-09-29T18:11:09.000Z"
+        }
+      ],
+      "first_seen": "2026-09-29T18:11:09.000Z",
+      "expires": "2026-10-02T18:35:00.000Z",
+      "kind": "news"
+    }
+  ]
+}
