@@ -1,0 +1,574 @@
+{
+  "generated_at": "2026-10-03T14:35:38.236Z",
+  "window_hours": 48,
+  "sources": [
+    {
+      "source": "openai",
+      "ok": true,
+      "items": 4
+    },
+    {
+      "source": "microsoft-ai",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "apple-newsroom",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "google-deepmind",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "aws-ml",
+      "ok": true,
+      "items": 11
+    },
+    {
+      "source": "meta-developers",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "nvidia",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "hubspot",
+      "ok": true,
+      "items": 0
+    },
+    {
+      "source": "salesforce",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "techcrunch-ai",
+      "ok": true,
+      "items": 20
+    },
+    {
+      "source": "zapier",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "verge-ai",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "mit-tech-review-ai",
+      "ok": true,
+      "items": 2
+    },
+    {
+      "source": "wired-ai",
+      "ok": true,
+      "items": 7
+    },
+    {
+      "source": "ars-ai",
+      "ok": true,
+      "items": 6
+    },
+    {
+      "source": "guardian-ai",
+      "ok": true,
+      "items": 14
+    },
+    {
+      "source": "bbc-tech",
+      "ok": true,
+      "items": 3
+    },
+    {
+      "source": "inc",
+      "ok": true,
+      "items": 40
+    },
+    {
+      "source": "google-ai",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "therundown",
+      "ok": true,
+      "items": 1
+    },
+    {
+      "source": "entrepreneur",
+      "ok": true,
+      "items": 10
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "items": 15
+    },
+    {
+      "source": "hn-ai",
+      "ok": false,
+      "error": "HTTP 502"
+    }
+  ],
+  "items_seen": 157,
+  "trends": [
+    {
+      "topic": "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)",
+      "score": 14.6,
+      "why_now": "1 source(s), newest 14h ago",
+      "tags": [
+        "smb",
+        "automation",
+        "pricing"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Supabase raised $150M led by Singapore's GIC and agrees to acquire Turso, which offers a database optimized for AI agents, for an undisclosed sum (Maria Deutscher/SiliconANGLE)",
+          "url": "https://www.techmeme.com/261002/p30#a261002p30",
+          "date": "2026-10-03T00:50:01.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T00:50:01.000Z",
+      "expires": "2026-10-06T00:50:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation (Garrison Lovely/Semafor)",
+      "score": 13.3,
+      "why_now": "1 source(s), newest 15h ago",
+      "tags": [
+        "smb-tools",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Leaked Slack messages show OpenAI employees' pushback in June to Greg Brockman's Leading the Future ties, contributing to Brockman reneging on a $25M donation (Garrison Lovely/Semafor)",
+          "url": "https://www.techmeme.com/261002/p28#a261002p28",
+          "date": "2026-10-02T23:50:01.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T23:50:01.000Z",
+      "expires": "2026-10-05T23:50:01.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "An OpenAI safety employee has quit and is sounding the alarm",
+      "score": 13,
+      "why_now": "1 source(s), newest 0h ago",
+      "tags": [
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "date": "2026-10-03T14:31:56.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T14:31:56.000Z",
+      "expires": "2026-10-06T14:31:56.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
+      "score": 12.8,
+      "why_now": "1 source(s), newest 9h ago",
+      "tags": [
+        "automation",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI says its review into hacks, including on Australian government sites, is costing $500,000 a day",
+          "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+          "date": "2026-10-03T05:39:22.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T05:39:22.000Z",
+      "expires": "2026-10-06T05:39:22.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "A model guide for the GPT-6 family",
+      "score": 12.4,
+      "why_now": "1 source(s), newest 22h ago, official announcement",
+      "tags": [
+        "smb",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "A model guide for the GPT-6 family",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "date": "2026-10-02T16:15:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T16:15:00.000Z",
+      "expires": "2026-10-05T16:15:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
+      "score": 12.1,
+      "why_now": "1 source(s), newest 24h ago",
+      "tags": [
+        "smb",
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "OpenAI’s Medicare attack has exposed Australia’s ‘tech debt’. Fixing it could bring a big bill for taxpayers",
+          "url": "https://www.theguardian.com/australia-news/2026/oct/03/openais-medicare-attack-has-exposed-australias-tech-debt-fixing-it-could-bring-a-big-bill-for-taxpayers",
+          "date": "2026-10-02T15:00:13.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T15:00:13.000Z",
+      "expires": "2026-10-05T15:00:13.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "California issues investigative subpoena to OpenAI over rogue agents’ hacking",
+      "score": 12,
+      "why_now": "1 source(s), newest 44h ago",
+      "tags": [
+        "smb",
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T1",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "guardian-ai",
+          "title": "California issues investigative subpoena to OpenAI over rogue agents’ hacking",
+          "url": "https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
+          "date": "2026-10-01T19:01:55.000Z"
+        }
+      ],
+      "first_seen": "2026-10-01T19:01:55.000Z",
+      "expires": "2026-10-04T19:01:55.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)",
+      "score": 11.1,
+      "why_now": "1 source(s), newest 16h ago",
+      "tags": [
+        "launch",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techmeme",
+          "title": "Nvidia announces a version of DGX Spark with 64 GB of unified memory for $4,999, or $1,000 more than the 128 GB version at launch (Michael Kan/PCMag)",
+          "url": "https://www.techmeme.com/261002/p26#a261002p26",
+          "date": "2026-10-02T23:00:38.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T23:00:38.000Z",
+      "expires": "2026-10-05T23:00:38.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "All the AI agents that can live in your text messages",
+      "score": 10.9,
+      "why_now": "1 source(s), newest 1h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "All the AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "date": "2026-10-03T14:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T14:00:00.000Z",
+      "expires": "2026-10-06T14:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "score": 10.9,
+      "why_now": "1 source(s), newest 21h ago",
+      "tags": [
+        "automation",
+        "launch",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "verge-ai",
+          "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "date": "2026-10-02T18:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T18:00:00.000Z",
+      "expires": "2026-10-05T18:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "score": 10.4,
+      "why_now": "1 source(s), newest 3h ago",
+      "tags": [
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "wired-ai",
+          "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+          "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+          "date": "2026-10-03T12:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T12:00:00.000Z",
+      "expires": "2026-10-06T12:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "ChatGPT and Other AI Tools Are Changing How We Learn. A Massive New Study Calls It ‘Knowledge Collapse’",
+      "score": 10.4,
+      "why_now": "1 source(s), newest 7h ago",
+      "tags": [
+        "major-ai",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "inc",
+          "title": "ChatGPT and Other AI Tools Are Changing How We Learn. A Massive New Study Calls It ‘Knowledge Collapse’",
+          "url": "https://www.inc.com/bill-murphy-jr/chatgpt-and-other-ai-tools-are-changing-how-we-learn-a-massive-new-study-calls-it-knowledge-collapse/91413730",
+          "date": "2026-10-03T08:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T08:00:00.000Z",
+      "expires": "2026-10-06T08:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "score": 10,
+      "why_now": "1 source(s), newest 46h ago",
+      "tags": [
+        "smb-tools",
+        "automation"
+      ],
+      "suggested_template": "T4",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "techcrunch-ai",
+          "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+          "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+          "date": "2026-10-01T16:44:35.000Z"
+        }
+      ],
+      "first_seen": "2026-10-01T16:44:35.000Z",
+      "expires": "2026-10-04T16:44:35.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Gemini connectors: How to connect Gemini Enterprise to the rest of your tech stack",
+      "score": 10,
+      "why_now": "1 source(s), newest 35h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai",
+        "web"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "zapier",
+          "title": "Gemini connectors: How to connect Gemini Enterprise to the rest of your tech stack",
+          "url": "https://zapier.com/blog/gemini-connectors",
+          "date": "2026-10-02T04:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T04:00:00.000Z",
+      "expires": "2026-10-05T04:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "The Biggest ChatGPT Update Yet Gives Entrepreneurs 7 New Ways to Grow Their Business Fast",
+      "score": 8.9,
+      "why_now": "1 source(s), newest 13h ago",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "entrepreneur",
+          "title": "The Biggest ChatGPT Update Yet Gives Entrepreneurs 7 New Ways to Grow Their Business Fast",
+          "url": "https://www.entrepreneur.com/building-a-business/the-biggest-chatgpt-update-yet-gives-entrepreneurs-7-new-ways-to-grow-their-business-fast",
+          "date": "2026-10-03T02:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-03T02:00:00.000Z",
+      "expires": "2026-10-06T02:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+      "score": 8.1,
+      "why_now": "1 source(s), newest 24h ago",
+      "tags": [
+        "launch",
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "ars-ai",
+          "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+          "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+          "date": "2026-10-02T14:52:16.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T14:52:16.000Z",
+      "expires": "2026-10-05T14:52:16.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+      "score": 8,
+      "why_now": "1 source(s), newest 45h ago, official announcement",
+      "tags": [
+        "automation",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+          "date": "2026-10-01T17:34:56.000Z"
+        }
+      ],
+      "first_seen": "2026-10-01T17:34:56.000Z",
+      "expires": "2026-10-04T17:34:56.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Chatham scales its capital markets expertise with OpenAI",
+      "score": 7,
+      "why_now": "1 source(s), newest 39h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "Chatham scales its capital markets expertise with OpenAI",
+          "url": "https://openai.com/index/chatham-financial",
+          "date": "2026-10-02T00:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-02T00:00:00.000Z",
+      "expires": "2026-10-05T00:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "How Albertsons Companies is reimagining retail from the inside out",
+      "score": 7,
+      "why_now": "1 source(s), newest 47h ago, official announcement",
+      "tags": [
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "openai",
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "date": "2026-10-01T16:00:00.000Z"
+        }
+      ],
+      "first_seen": "2026-10-01T16:00:00.000Z",
+      "expires": "2026-10-04T16:00:00.000Z",
+      "kind": "news"
+    },
+    {
+      "topic": "Implementing Multi-Environment Access for Claude Platform on AWS",
+      "score": 7,
+      "why_now": "1 source(s), newest 46h ago, official announcement",
+      "tags": [
+        "pricing",
+        "major-ai"
+      ],
+      "suggested_template": "T3",
+      "sources_count": 1,
+      "evidence": [
+        {
+          "source": "aws-ml",
+          "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+          "date": "2026-10-01T16:32:23.000Z"
+        }
+      ],
+      "first_seen": "2026-10-01T16:32:23.000Z",
+      "expires": "2026-10-04T16:32:23.000Z",
+      "kind": "news"
+    }
+  ]
+}

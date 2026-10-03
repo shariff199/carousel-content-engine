@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-03",
+  "status": "dropped",
+  "reasons": [
+    "engine error: GEMINI_API_KEY missing"
+  ]
+}
